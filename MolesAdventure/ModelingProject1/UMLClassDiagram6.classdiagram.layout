@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram6">
+  <logicalClassDesignerModelMoniker Id="910573e1-7575-46e7-9e48-afd3c1617043" />
+  <nestedChildShapes>
+    <packageShape Id="df69ca73-c0b1-47e1-ac11-6f070317a57e" absoluteBounds="0.5, 0.5, 7.75, 7.125" customColor="255, 249, 230" hideQualifiedName="false">
+      <packageMoniker Id="a39540db-c5c2-4937-97ef-4c413906eaed" LastKnownName="MolesAdventure" />
+      <nestedChildShapes>
+        <classShape Id="7ba289ec-fa8a-4af1-be26-5304b488826c" absoluteBounds="6.625, 1.125, 1.5, 4.5511167651414866" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+          <classMoniker Id="240c42ea-84aa-4244-afd6-993ffb46e9af" LastKnownName="Adventure" />
+          <nestedChildShapes>
+            <AttributeElementListCompartment Id="ba8938f7-da04-4aee-8749-e9c904efbb81" absoluteBounds="6.64, 1.6403356393178306, 1.4700000000000002, 1.4824218278129893" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+            <OperationElementListCompartment Id="679001d5-0de7-4997-80ef-2b832783b6e2" absoluteBounds="6.64, 3.1327574671308192, 1.4700000000000002, 2.4433592980106673" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          </nestedChildShapes>
+        </classShape>
+        <classShape Id="792b4774-fa47-4a40-9dfc-cc7ed3a30269" absoluteBounds="5, 1.5, 1.5, 2.4690855797131848" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+          <classMoniker Id="a13e8e85-b7de-4bd2-9b1d-2ab834edf0da" LastKnownName="XNAContext" />
+          <nestedChildShapes>
+            <AttributeElementListCompartment Id="f54ab573-0ddc-4436-8123-26262b34bfe7" absoluteBounds="5.0150000000000006, 2.01533563931783, 1.4700000000000002, 0.84179684768120444" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+            <OperationElementListCompartment Id="801e0cba-8a4f-4bf6-b4d3-df04a5db0b57" absoluteBounds="5.0150000000000006, 2.8671324869990347, 1.4700000000000002, 1.0019530927141507" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          </nestedChildShapes>
+        </classShape>
+        <packageShape Id="9b2d1525-bc45-4b38-8770-3bce6b7fbfb9" absoluteBounds="0.625, 1.125, 4.125, 3.125" customColor="255, 249, 230" hideQualifiedName="false">
+          <packageMoniker Id="e65eb7ac-d12f-4a80-9358-0a99263e43c9" LastKnownName="GameObjects" />
+          <nestedChildShapes>
+            <packageShape Id="e80450bc-dbc9-4aa8-a098-d918f6de5dc2" absoluteBounds="0.75, 1.5, 1.5, 1" customColor="255, 249, 230" hideQualifiedName="false">
+              <packageMoniker Id="c90340df-ad13-4a4c-85bf-7b9d1d6cc9d0" LastKnownName="Bonuses" />
+            </packageShape>
+            <packageShape Id="fc731440-1e4c-4b50-a20d-36765a315e0f" absoluteBounds="2.375, 1.5, 1.5, 1" customColor="255, 249, 230" hideQualifiedName="false">
+              <packageMoniker Id="b36f66dd-1b0e-4ec6-af10-cd470b497d64" LastKnownName="Actors" />
+            </packageShape>
+            <packageShape Id="2945c37a-2403-4fa2-8d00-44d667035a2a" absoluteBounds="0.875, 2.875, 1.5, 1" customColor="255, 249, 230" hideQualifiedName="false">
+              <packageMoniker Id="48e2a804-2d11-4e52-9efd-01bbfc9c58e4" LastKnownName="Enemies" />
+            </packageShape>
+            <packageShape Id="62b3b5ec-a06f-4a48-b2b3-00617db64459" absoluteBounds="2.75, 2.875, 1.5, 1" customColor="255, 249, 230" hideQualifiedName="false">
+              <packageMoniker Id="28763688-7971-4998-89d9-e194c7c5f3fb" LastKnownName="Field" />
+            </packageShape>
+          </nestedChildShapes>
+        </packageShape>
+        <packageShape Id="03612ca6-3178-4179-8b55-ff9b3e21f0ef" absoluteBounds="1.75, 4.5, 1.5, 1" customColor="255, 249, 230" hideQualifiedName="false">
+          <packageMoniker Id="5ff76f9e-f182-4241-b56a-c5b4e804b7aa" LastKnownName="Views" />
+        </packageShape>
+      </nestedChildShapes>
+    </packageShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

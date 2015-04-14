@@ -1,0 +1,5 @@
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Generic XNA Layer\bin\Debug\Generic Game Engine.dll
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Generic XNA Layer\bin\Debug\Generic Game Engine.pdb
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Generic XNA Layer\obj\Debug\Generic Game Engine.dll
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Generic XNA Layer\obj\Debug\Generic Game Engine.pdb
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Generic XNA Layer\obj\Debug\Generic Game Engine.csprojResolveAssemblyReference.cache

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{3777CFE6-8FDB-4293-A040-CCE501AB86AE}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\RobaczekContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-02-23T01:53:17.1708498+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

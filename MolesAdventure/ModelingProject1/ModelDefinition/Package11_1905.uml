@@ -1,0 +1,1666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d1e8fdd0-eb56-4656-8870-63aa350c3115"
+  name="XNA_Generic_Game_Library"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c56b05e1-0767-40d4-8c6c-e8a8660700cc"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DXNA_Generic_Game_Library"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="fe2c033d-7ed9-4407-9c31-72255f56af7b">
+      <profileInstance
+        Id="41f4eb6c-7ae5-43b9-878e-13eee7c27274"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3c178d69-977d-410e-b8db-2e355fd9f925"
+        name="GameObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="56e0bed4-257a-4f46-94a4-5805f1ea15b2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ba432135-5758-4c55-9c6c-48a44f4040e2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="930767c4-9f61-43d4-b5fb-a40ed790aab0">
+                <propertyInstance
+                  Id="c3343f01-5068-42d9-8b90-b9a11d52183f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="454b92f0-6b92-413c-9702-370ea173a40f">
+                <propertyInstance
+                  Id="1fc36484-5965-4c58-bdf6-442e8bc237b3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f48e51e2-bab7-4d6d-b27e-364d76a47194">
+                <propertyInstance
+                  Id="28fae4a5-de01-4e74-aa3f-4ec4970abfc4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="178dd14b-4275-4dad-b702-5da16818305f">
+                <propertyInstance
+                  Id="936d0a8f-ad8d-4d7d-bcdb-4bfab48149d3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7dde2af0-f6a1-4825-bf7e-b0ab804591ac">
+                <propertyInstance
+                  Id="fee7ebab-d162-4410-9ae8-50d5a10eb0ad"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f524bb8f-afa8-4597-86ab-dde725099469">
+            <interfaceMoniker
+              Id="20a92636-9fc2-4305-a650-73663ff7852c"
+              LastKnownName="IDrawable"
+              LastKnownLocation="Package6_1905.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="6f89bbfc-148d-462b-a009-29c7d4ae27c2">
+            <interfaceMoniker
+              Id="1c179523-c8d2-4788-b18e-91adb40fe376"
+              LastKnownName="ICollidable"
+              LastKnownLocation="Package6_1905.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1688b84f-0d9d-4a8d-9df0-3510cfda2130"
+            name="GetTexture"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eb8368cb-60cf-40e0-812b-50c425cfd09a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3DGetTexture"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="73133b0f-83e4-4d6e-9864-4464f980e871"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f88a8e6-e8c1-4605-9333-214d02fedd3f">
+                    <propertyInstance
+                      Id="3356889e-1dde-45ae-880c-32c7d967b37e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9a72e34-09bf-49f2-9a86-0df211cab9ae">
+                    <propertyInstance
+                      Id="aa1d7f39-6eb6-49f1-b18c-1255a3c995be"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8ef1295-b058-4f65-bea5-cf59ccb393bf">
+                    <propertyInstance
+                      Id="0fa4f69b-55f9-46f9-8737-bd326384babb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c1b6ae1-ee3b-4baa-a73d-e0176b633762">
+                    <propertyInstance
+                      Id="03df260c-4a49-4156-9cb4-bc3e6e6d2db0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5022c4ea-931f-4fcd-af5c-3a807b3212e3">
+                    <propertyInstance
+                      Id="c4bdb0a2-9577-4bad-8754-34119a42e680"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57c5ed11-14e8-4229-8ffe-18891ae27afb">
+                    <propertyInstance
+                      Id="011306e2-d979-45a0-af46-517680e056c4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6dad17c9-1b8b-4ab1-9d05-189fbef6d4c0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="30a20d1f-2a5b-4962-ae67-4b81fee4c08a"
+                      LastKnownName="Texture2D"
+                      LastKnownLocation="Package10_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2052b761-bf16-4ec5-96b6-b113de04bb99"
+            name="GetLocation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a249dcf1-a04a-41d5-bd7f-c3939fca1de2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3DGetLocation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2b00b406-c42e-4a19-872c-881467903bb9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a049d6c2-a3e8-464f-a873-19882957806b">
+                    <propertyInstance
+                      Id="eec09406-a70f-4f47-97dc-f161b394f841"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04080f4d-7472-40ac-9342-c461b010e869">
+                    <propertyInstance
+                      Id="2a3c2368-0ffb-443a-8a54-eb937ad867cb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4273e64e-867b-4440-9322-294c5c492c31">
+                    <propertyInstance
+                      Id="ecc61ad3-602d-40c8-b46b-98917a48a386"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ee2f693-53eb-49b9-9481-22b7e050ac26">
+                    <propertyInstance
+                      Id="9d54049c-9892-46bc-8ac1-9fdaa90d2a6e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21b9d9ac-e096-4996-b79b-226c36a63ed4">
+                    <propertyInstance
+                      Id="f0bb4ad9-7554-4546-b9c8-22df82baeb4b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15127edc-fc1b-4f6a-b407-ee1ceddccb7b">
+                    <propertyInstance
+                      Id="a00d3dfd-176f-477e-bdfc-264fa6138bcd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="57e266d1-0f54-4ac7-9f6d-f0defe68d00b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="02bd1242-83cf-40a6-930b-df00959e393f"
+            name="SetLocation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="107c59e6-474e-4ef2-aeb3-2bf824fd84ea"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DSetLocation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a7826dfe-f111-4bf7-8d36-340f9f6a01c5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0f3fd6d-49e0-4c15-89b8-b33bec87c6a4">
+                    <propertyInstance
+                      Id="4912ce45-7425-4363-adc6-4f25d7062184"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a06fb310-fac0-45cc-862b-fab9c9dfdd74">
+                    <propertyInstance
+                      Id="7bb9fdcf-a897-497d-a6b1-4f058238f6c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb05ffa6-75eb-41ca-8317-deb0f156cfe7">
+                    <propertyInstance
+                      Id="071ba37d-58b4-4c79-b07f-f06f80ff14f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1352f9d1-880e-4b9d-8c07-55543feb2289">
+                    <propertyInstance
+                      Id="3e35c105-c49a-496f-80b0-88b8fea4dca7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73662585-b92d-4d1a-9791-0586ea8987b8">
+                    <propertyInstance
+                      Id="f6205bb8-2b29-4919-8e45-c6d1211ba8fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c5f4217-b0a5-4b39-915d-6edbd8f43e72">
+                    <propertyInstance
+                      Id="877edcd9-b74b-4270-82dd-ecc745bf3789"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3bd81ae5-113f-4454-87e2-7c4221985d3b"
+                  name="P"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="49a3f26a-c81f-4036-a730-31ca7af808ef"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DSetLocation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)]) ParameterIdentifier%3DP"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b576f7f8-9549-4238-af8a-b1c5365cb5ef"
+            name="GetView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0c2f4e31-4388-487b-ad9e-f9d4da298852"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3DGetView"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a3bf7c4-76e6-4a90-adc4-636b9dab79f7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b931cab-5a79-4383-b48d-6dccf628bd4b">
+                    <propertyInstance
+                      Id="704ab0c9-879b-4303-bd6b-1463ab097e2a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="681f2784-f5df-4da6-852b-ae2ad84100b0">
+                    <propertyInstance
+                      Id="2303a2ac-1429-4c6e-84ac-10675dfad43a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5ac30ec-015a-4dd3-8259-864dca266552">
+                    <propertyInstance
+                      Id="7793df13-4e09-4307-8a96-323f4967606e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1eccacda-f748-4658-99d6-0cb3da6acfa4">
+                    <propertyInstance
+                      Id="542edd48-a01a-471b-b0ba-9e28ddd8dc7e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ab27513-d859-47f2-b434-38a7be2b4895">
+                    <propertyInstance
+                      Id="293e45a5-7879-4bcc-9d2c-1eea1e29a261"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9aed3274-f81a-4665-a8f1-bc79bf6191c1">
+                    <propertyInstance
+                      Id="0b824946-f85e-4666-ab2e-7351616dd8e2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e5cbba7b-8ff8-495f-afec-0629b9a444b1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="af359b2c-4ad9-4f49-8f02-3798b4417a05"
+                      LastKnownName="IView"
+                      LastKnownLocation="Package6_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="455165b6-114b-4ac0-9c15-bdebccdb26be"
+            name="SetView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0b167f23-d39b-4513-bd8f-0a074a869b63"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DSetView OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIView)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cbff65d0-0549-4bef-a584-2d81573ce8be"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f213f12-0cb6-4113-9650-1b488a18e748">
+                    <propertyInstance
+                      Id="473cad54-004b-4c18-95d9-ac251547f61c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4686a096-9c8e-4b88-956f-9efd936d8df7">
+                    <propertyInstance
+                      Id="3e448f69-87a6-49d2-8c11-1e2c0803bb95"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ef0d83c-0ee5-4cb1-b228-395e14a9f6b1">
+                    <propertyInstance
+                      Id="083fde6b-64c4-418d-94ad-eb32e029fd9e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1abe52f6-7e8f-46c2-a557-17486ebc83d2">
+                    <propertyInstance
+                      Id="51f49caf-4519-4580-a0a4-26806c850d24"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f6a397b-c0b7-4d1e-9bc2-23536231c1ba">
+                    <propertyInstance
+                      Id="6ca906ed-5d9b-4300-a777-989389a38820"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef2aabd9-dd2a-4599-a383-dcd979af2e8a">
+                    <propertyInstance
+                      Id="04bc00c8-1624-4e7b-9a14-bfe56f38ac0f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9df7f5c9-c35d-4aaf-8271-20e1a684c334"
+                  name="V"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b4f5b88d-6f9f-468d-8b4d-365113083c98"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DSetView OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIView)]) ParameterIdentifier%3DV"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="af359b2c-4ad9-4f49-8f02-3798b4417a05"
+                      LastKnownName="IView"
+                      LastKnownLocation="Package6_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c1d95b23-5313-4cbc-b356-3a846ff7e4af"
+            name="Damage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5d9e1fdc-1598-4d28-a976-fae900e0744f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DDamage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c4f63f77-2839-4993-bfe6-ddf0a313511b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad3a3732-b15a-45be-9d8c-6864ac5e3562">
+                    <propertyInstance
+                      Id="98f05375-035b-4b29-a27b-245095fd9eea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9680e6ef-6ee0-41f6-af83-1a374686acd6">
+                    <propertyInstance
+                      Id="ecbd2763-2f67-469b-9eb1-d818a06acde7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bb74b65-66de-4fb9-b907-858c6b9469ee">
+                    <propertyInstance
+                      Id="ca32773e-9824-4693-893c-85bc46d23372"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1123e727-0878-445a-b8fa-35eb4947394d">
+                    <propertyInstance
+                      Id="2f6bdcc3-3a0c-4a14-bba0-d60b99a18436"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6eef6f65-13aa-4baf-a69e-1f37cdab69e9">
+                    <propertyInstance
+                      Id="6d869d8d-0160-4557-acd1-2c96e40f90b7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db8f975e-6fc8-4588-8ed8-f7b9b23c53cc">
+                    <propertyInstance
+                      Id="e8a2710c-7071-4317-a81a-33680229f4ea"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="80a45c10-748e-46cd-9ca8-f5f59f0b3bcc"
+                  name="D"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3b55c71b-170c-4d9f-a5db-87a323e5f883"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DDamage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DD"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="39503524-ce67-4054-aefe-564b58477f9e"
+            name="GetCollisionEffect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="82ad50d1-823b-462e-8061-69a0bf0d3780"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3DGetCollisionEffect"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="58694d33-02de-40a5-9d1a-922f5bc97ebd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99312a26-96e9-4cb2-8364-b337a2b903aa">
+                    <propertyInstance
+                      Id="24d50017-64b5-46f3-86da-7b5604414cb0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3c06a98-0ebc-4934-810c-cb1e8f4b2ef5">
+                    <propertyInstance
+                      Id="4514a53e-fae3-402c-82f3-2462ae58bfa9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a8175f0-a0e7-4f22-9df2-4cb2a2852a81">
+                    <propertyInstance
+                      Id="576e646a-44f1-4d24-ba92-f1fa6c0449b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0647d2bc-1f85-4f90-99c1-b8fedfb9631b">
+                    <propertyInstance
+                      Id="f2d48f0e-a557-4216-ba35-a304c8250722"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="504f6c35-ee29-4e98-9992-9f3aae3242a4">
+                    <propertyInstance
+                      Id="c070a011-0a26-46f5-8d68-a28600a729e4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc49fe60-7db5-4aa3-8bcb-745d02e7d602">
+                    <propertyInstance
+                      Id="f882b2a3-608a-46c1-b25f-8ae30b159747"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5014cf63-6a5a-4c12-901a-fb1f403c424c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6f8784ea-e4e1-40ef-90e1-11b8598a314d"
+                      LastKnownName="CollisionEffect"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7bf85ba1-7cd2-40a3-9458-846108932998"
+            name="ReactToCollision"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9115b7ab-c0e8-4937-a205-fc52abcf9e3c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DReactToCollision OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DCollisionEffect)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fdc9ee16-4f5d-4a2c-8252-195ca2c1cd62"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62438b68-a276-4182-b761-da297ce3bf13">
+                    <propertyInstance
+                      Id="5c0dea1d-9205-49bd-8d1d-0181eec3574e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6aa917a6-bc90-423e-9875-45011baf5c58">
+                    <propertyInstance
+                      Id="9df981e4-de8e-4bec-8ca4-2d4bc02c6473"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b94a943-c10b-4786-b9e0-3a11077a28cc">
+                    <propertyInstance
+                      Id="527bfefb-c444-4fa6-a56a-7db6f4b14cad"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34284eb8-2f8f-4ac2-aa11-9ef2bc36f5ee">
+                    <propertyInstance
+                      Id="69ae74ed-90bb-46bf-ae15-d08c083b3add"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36c2a8d3-437a-42d0-a230-7cd2c50c2007">
+                    <propertyInstance
+                      Id="1f8338d6-7411-49ec-895e-f169c1dc9214"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="596bdc8d-f424-4abf-9a70-2d421b4a0569">
+                    <propertyInstance
+                      Id="8a63d5dc-b1fe-44bb-8a19-7d3617b58a8c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f2ebcc16-7765-4a26-a044-4726ff1dfe75"
+                  name="CE"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7473d64a-c537-4e7c-85e7-414e98315a70"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D(Name%3DReactToCollision OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DCollisionEffect)]) ParameterIdentifier%3DCE"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6f8784ea-e4e1-40ef-90e1-11b8598a314d"
+                      LastKnownName="CollisionEffect"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="da1c93e7-f070-43c1-a28e-0aa5454cbf27"
+            name="GameObject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5191adee-5539-4b87-93c9-e954b7004b41"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DGameObject Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="54d53e4e-d445-4aa3-a10d-a20d0b45866e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40902a70-8e55-4a75-a8cc-30095fece39a">
+                    <propertyInstance
+                      Id="76923207-8c98-49e9-be55-ca4c67e62149"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db105696-fb27-4859-96eb-50342e8472b8">
+                    <propertyInstance
+                      Id="66367005-60c6-407d-b11d-715c905e001f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ea24bf0-0074-4962-b428-53374d78ad2a">
+                    <propertyInstance
+                      Id="05ba7fb8-3252-41c1-8b8c-bafa155aad65"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1531018e-de7c-4c47-9f68-9ec707fcde16">
+                    <propertyInstance
+                      Id="acd09477-7bb0-49bb-ac84-8acf91c90b3a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="745ae804-8045-4717-9143-80c50d9ceb70">
+                    <propertyInstance
+                      Id="1a8ca1a3-2fd2-4b4e-b50d-24c8ec5c8970"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b71c5790-b65d-41bd-9175-f6d02c428206">
+                    <propertyInstance
+                      Id="39bdcfa7-4e13-4d34-bab4-bbde6914ba7d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f788ec4e-c97a-429e-9272-3b4e1d28dff0"
+        name="ControlableObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c552da34-cf16-4604-aa8d-a6b928564827"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DControlableObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0ff16ca3-2651-41d9-9d2a-525bc670ff6d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b9f1a3d-b0c6-48d8-8f3c-152abf328882">
+                <propertyInstance
+                  Id="7e42fd2e-858a-4f44-bdb4-7b55f3c18ffd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41365bcd-99b3-4245-b4dd-889719311676">
+                <propertyInstance
+                  Id="205fc5b1-1699-403c-8692-7126bfb8fd58"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd6f2e7d-014e-4303-8195-c31a2376ddb7">
+                <propertyInstance
+                  Id="0613fa1e-0e17-4360-95bf-3e41b61edfc3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9de920f-fb86-4015-a901-cd22cddc38af">
+                <propertyInstance
+                  Id="dc316d8d-e7c2-4e0c-b84c-b06e2bb8ff6c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f41411bd-49a1-4a55-ad01-8cb1ad891ecd">
+                <propertyInstance
+                  Id="f048f3d0-a8d1-4081-81ee-daa4970f3140"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="abad2952-4456-4798-b5c6-cff9f7746d06">
+            <interfaceMoniker
+              Id="c40c11f6-7ad7-499d-99b0-a1cf04fb50d3"
+              LastKnownName="IControlable"
+              LastKnownLocation="Package6_1905.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="5fe07b8c-580f-4ce0-8e53-147e90818e8b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="3c178d69-977d-410e-b8db-2e355fd9f925"
+              LastKnownName="GameObject"
+              LastKnownLocation="Package11_1905.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="55cf19fe-4784-454a-a4d5-4ecd84921eb8"
+            name="GetMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a1da3ae9-ae94-49de-8ac4-15476d25491c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DControlableObject Member%3D(Name%3DGetMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Input Type%3DKeyboardState)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a06c186f-0fc5-4682-ac6e-53a0a12f6a98"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27e6bd1e-cdec-475a-984c-d53e1800108b">
+                    <propertyInstance
+                      Id="8d71bd29-8166-4f70-9c7a-3932c90bfa1b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ece3b99a-e1dc-49e2-a79a-21d53c569b8e">
+                    <propertyInstance
+                      Id="ee7f3252-d409-4a85-b330-ac9c2e1c11bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce49eeb9-5e40-4727-91b7-2dae5d972411">
+                    <propertyInstance
+                      Id="124d5307-7f71-4399-9b8c-7945a7ab9df9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9cec0fe-6ff1-4bdb-9c5f-32cdc0b7fd40">
+                    <propertyInstance
+                      Id="230452ac-2594-4992-ab33-62f89d1e6ba1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88f32cc2-9702-4357-9e25-00a3d0a14b8a">
+                    <propertyInstance
+                      Id="b90c812d-a400-406c-bcc1-d0b0449f792b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cb78f26-f0b0-4314-a494-f77c4f042dbf">
+                    <propertyInstance
+                      Id="7b7d4857-273f-4b33-9420-9f19b831e46b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="361b9237-f9e8-4836-ab28-3434196455f2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3e18baef-bf97-406d-96f9-2dd2f36709f6"
+                  name="K"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="790f8b18-47df-4093-9bfd-532dd835f314"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DControlableObject Member%3D(Name%3DGetMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Input Type%3DKeyboardState)]) ParameterIdentifier%3DK"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93a93393-7efd-4f6d-9f31-18b8ea7a9b7a"
+                      LastKnownName="KeyboardState"
+                      LastKnownLocation="Package4_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="307498c2-336c-47bc-b902-109c0da8eb20"
+            name="Move"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4ea7eee1-ea1c-40a6-8e03-c6f5fbc0e48b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DControlableObject Member%3D(Name%3DMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="714d32e8-28f8-47c3-ac32-e3f48336e6e7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85cad9a3-2362-47d3-aa1b-14929e428357">
+                    <propertyInstance
+                      Id="c312a14c-0003-47f9-9620-09eb4404640e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="072156ad-7279-4045-96f5-c9ff954b682c">
+                    <propertyInstance
+                      Id="b34377d6-1f85-4c84-ad1c-f9eeb7f5b431"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9f495aa-51bb-4711-a221-564bfa1e2ef0">
+                    <propertyInstance
+                      Id="5261ac1d-0978-4f12-bb69-320135613a74"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adc22e4e-2953-422d-a57b-dc9dc3691e5f">
+                    <propertyInstance
+                      Id="460a5d67-68b5-4533-828a-d387a6cb1ee4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39c457fd-ab36-4f83-bb0a-acb1fd8e0402">
+                    <propertyInstance
+                      Id="9ba7abef-b533-4bf7-8f59-db5a5eb7193e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1e7a312-15e1-427c-9dca-4500af4c6b8a">
+                    <propertyInstance
+                      Id="d961d0d3-c531-43ab-a156-59c3a9c86666"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="187e6d6a-87e8-4f17-b947-8740d88c07cf"
+                  name="P"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="24872604-e5d1-4a78-962d-8b27bc05ced4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DControlableObject Member%3D(Name%3DMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)]) ParameterIdentifier%3DP"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="73a9a384-8186-426a-9e1d-67a20c60037b"
+            name="ReverseMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b28669a3-361b-4245-8d79-95677984e434"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DControlableObject Member%3DReverseMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ecf00daf-8892-441b-82c5-878ec5101833"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3655380-efb7-4a93-b880-cbf1d03883b2">
+                    <propertyInstance
+                      Id="62380acb-c90e-48b0-b415-60b83b2bcef9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4eec909c-96be-4230-9a8a-88ba2f3c02e1">
+                    <propertyInstance
+                      Id="2961d700-4516-445f-9213-65e198b36943"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d1ed599-bba1-4d57-9e1e-7c24902bad49">
+                    <propertyInstance
+                      Id="d280f572-692a-4311-9093-d00420047c27"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6927f39c-36f7-4374-b830-65491a1d001c">
+                    <propertyInstance
+                      Id="d51613a0-5b5f-49a3-8093-924db34dbdc2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e5a3992-f3ae-431d-a002-b1bdb24f7423">
+                    <propertyInstance
+                      Id="f13916c5-e1f3-43ab-aed3-ff1889c1f633"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61c3c68e-5eb2-4aaf-b04b-72c2fde5de94">
+                    <propertyInstance
+                      Id="dd1d2d99-5301-4ea9-a018-82725d57b8cc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2b2e02ab-86c4-451f-beb5-75372eae7b26"
+            name="ControlableObject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d2551576-25bc-44ef-b37b-351a39e7af39"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DControlableObject Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2dde171d-eccd-48de-9fed-906bace39c1a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50414929-666d-42e4-ae1d-bad7f32f6f95">
+                    <propertyInstance
+                      Id="6902c9e9-70de-4886-a948-793ef94e2f67"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a0827ca-5210-42d6-9917-2f8ff07f4d0b">
+                    <propertyInstance
+                      Id="4c4db999-d88b-459a-ac68-8edd9773f1e8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8f1902d-f7cd-4cd3-96bb-6fe8ba69b309">
+                    <propertyInstance
+                      Id="c3b96d23-dba1-4745-95c8-66f815cb91a5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="666b3cab-731e-4743-a7c7-2f668b1fda12">
+                    <propertyInstance
+                      Id="5d8d0092-5e12-42f0-bb52-a3a88b9a6585"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="902151ea-8c3a-4142-88b1-dab0fb8e8d07">
+                    <propertyInstance
+                      Id="9c3b29ea-e773-4505-9e3e-78c8b39ce17c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d0c8294-e903-423b-b9c9-511580cc464b">
+                    <propertyInstance
+                      Id="34aefb76-96c0-4e9d-98ad-a61417ca82b0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fd6217eb-d438-4bd3-8740-71759fa330a9"
+        name="MovingObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="422c42e9-54c9-4842-a375-b806c76f6621"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DMovingObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="12fb3f36-253d-4f3f-8ffc-f6a2b65f06df"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9acd12c4-6d6a-4bf0-9403-38cbfd2109f9">
+                <propertyInstance
+                  Id="6273af1e-d7d9-4b2c-9fe4-e0f4607a0405"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c6700c8-b7c9-4658-938e-75739a3d43be">
+                <propertyInstance
+                  Id="fb540ea3-1797-41ec-86d2-19d022e7a7a9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4fec0ccc-9965-48a1-80dd-33add6ee7c50">
+                <propertyInstance
+                  Id="fe255bdd-c145-4c7a-9751-b5a276848d23"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="955d9225-8600-427d-8146-bb0b8ad5c228">
+                <propertyInstance
+                  Id="3497c64a-6651-4136-9001-2a6a47fd036b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16a5f0e9-5c2c-4173-ac6e-3d24aa3ccdae">
+                <propertyInstance
+                  Id="8d0661d3-90ba-43a2-b6c1-8bab6f2d50b1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ab9c9f61-eb13-4367-b694-bcd85692095d">
+            <interfaceMoniker
+              Id="49669b62-5ab1-4d41-a81c-2b45ce3e7b28"
+              LastKnownName="IAutoMovable"
+              LastKnownLocation="Package6_1905.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="a5098418-425d-4ee4-800c-61ade99068a1"
+            isSubstitutable="false">
+            <classMoniker
+              Id="3c178d69-977d-410e-b8db-2e355fd9f925"
+              LastKnownName="GameObject"
+              LastKnownLocation="Package11_1905.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="bba6e73f-b4cd-434b-8e65-198f2d202792"
+            name="LastMove"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f0749fb5-2f56-431b-9f46-b83ac37a784f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DMovingObject Member%3DLastMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b8ec6180-d965-4123-aa68-c527fb429227"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d820dd8-75ec-4c10-a897-e480e124a11d">
+                    <propertyInstance
+                      Id="67f97ca6-8030-451e-ad76-f3de75c2b700"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9df951e-ddb8-4e41-aa63-fcd4f2539fcf">
+                    <propertyInstance
+                      Id="56a88427-19ae-4250-9d54-1fa6dcf9465e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9744e4cb-ef39-4c44-83b5-c21a642d9d7a">
+                    <propertyInstance
+                      Id="6f781fef-fffb-44ea-8977-73d572914760"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="296f4fae-f576-4a84-9f4d-8ab31367f8d0">
+                    <propertyInstance
+                      Id="184fb066-b648-4b42-b948-db5c89986b7a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fea688ae-b84f-4da1-9b11-4aeafcf4479a">
+                    <propertyInstance
+                      Id="1d19181c-c141-4df4-bd74-6c7513ed2e7d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                LastKnownName="Point"
+                LastKnownLocation="Package13_1905.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c1a4fd2c-3d7b-417c-8136-d7f037617f53"
+            name="GetMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8dc57746-f77f-4a80-9c43-5ec170e93b71"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DMovingObject Member%3DGetMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dda1643d-9481-472c-a263-8779b19f22e0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce7b8b3f-1484-4ce9-aadb-08816a3ee483">
+                    <propertyInstance
+                      Id="eec45c3b-e637-49ae-871f-d1397913fab4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61c6098d-875a-4eb4-9d22-4e236db4bf4b">
+                    <propertyInstance
+                      Id="64318ae6-8d23-4ff8-85c1-1cc9133489ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af7ea929-0d77-4d6f-ad37-bc1ca92be44d">
+                    <propertyInstance
+                      Id="332abf38-f9a3-4278-9596-526aaaa1c508"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="411d93cf-fc15-4334-a49f-74acbc713003">
+                    <propertyInstance
+                      Id="9c6f9f25-bcfb-4bd9-845a-7aaf40cc00e5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a475f8d0-e4a2-41bd-bc5a-0f72f4e11b0a">
+                    <propertyInstance
+                      Id="51fd9d99-c80b-4f53-bb05-06c8f4c77feb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d25eaae-6cc2-4660-bcec-998b09ea2263">
+                    <propertyInstance
+                      Id="4242408a-d3dd-4e95-8f62-51fc94d10f1d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="633584ea-d9b8-4cba-917c-08bdf30fdd52"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2386ab0b-653a-453c-a135-33d9665c6bc6"
+            name="Move"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="30e54b94-6b75-43d1-98d2-5520efcc0402"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DMovingObject Member%3D(Name%3DMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5aa23201-2429-4185-8879-c0a5ad3d4090"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94cfb78d-ecc9-463d-8903-4cafa7767023">
+                    <propertyInstance
+                      Id="8d257053-e10d-4618-a7a2-ba2bb9bde715"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34776975-6a99-44fa-ac06-d18abe00ef8d">
+                    <propertyInstance
+                      Id="fd1c50d8-a432-4419-bf2c-edac267fbfbc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb977127-f51c-4d43-b579-65a9032358d2">
+                    <propertyInstance
+                      Id="ad9ea6d0-7dd1-40d4-8174-69cdefb23fd4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee4c670a-5f9e-4741-aff3-ae6e66814e85">
+                    <propertyInstance
+                      Id="022e30a0-716b-428e-a8ee-eaae20db6e5c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7b2245a-7c03-47d7-a016-91a7df6aa182">
+                    <propertyInstance
+                      Id="eb3a9444-ef1c-49b9-b1f2-08cc4525d402"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2462750-1110-457d-92db-291bcb935dfc">
+                    <propertyInstance
+                      Id="0741ccfd-eafb-4ae4-b41b-032cbfa71473"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="770c9da8-e046-4cd0-a15a-9d49edc28187"
+                  name="P"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d7f7982a-6537-4b13-b342-840ec3c0bdd5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DMovingObject Member%3D(Name%3DMove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)]) ParameterIdentifier%3DP"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b713df81-2297-4f96-a53b-a6ed4c76c795"
+            name="ReverseMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="095ec267-6f52-44aa-b9db-b6b8f6007b24"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DMovingObject Member%3DReverseMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c712075a-698c-4cc3-b608-fc0f027416b8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a682ed78-7451-4f3e-be53-dcc0da140f68">
+                    <propertyInstance
+                      Id="38ce97cb-98f2-42cd-800d-ebe3bb53b544"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b9fb6d3-357f-420d-b59c-02a76b1330dd">
+                    <propertyInstance
+                      Id="78943c4a-6692-4ac0-804a-021ac2fdd1ef"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc0c1d74-1fcc-4142-80b0-6a40a3ba885d">
+                    <propertyInstance
+                      Id="a6a8abcf-cba9-4fb8-8e59-72593a1d5c61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="233e7e1d-dbff-4e0f-b79a-a984f39deb1f">
+                    <propertyInstance
+                      Id="da04d545-3e72-4857-9767-014ee1192cbd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48675d43-7e44-494a-b709-eaccd504ec13">
+                    <propertyInstance
+                      Id="f15678fa-6f0f-4a2e-a045-46123be5f2a1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a646f9fa-9e89-484d-b15a-919c62eacbd8">
+                    <propertyInstance
+                      Id="2a621ba0-b449-49a3-97ca-10843bda6306"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="61892bf0-5abc-4936-81c4-6086e047d1dc"
+            name="MovingObject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cc8b2d2e-0a4f-48ad-b828-5a94f526f163"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DMovingObject Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8b7763e1-96e8-47d1-a290-5cc0c902a249"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa9d1af1-bb0c-42c3-902a-f517b784e696">
+                    <propertyInstance
+                      Id="0185f08b-fa40-4330-8b23-e83bb0673a14"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eaf20bb3-013b-4da5-88e7-dd79ab009a83">
+                    <propertyInstance
+                      Id="f1551795-2151-4e82-a7b4-8cf42d482b89"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84fcf62a-fc03-4e2a-8acc-194c99511dd0">
+                    <propertyInstance
+                      Id="dce0154e-30ae-4723-9398-5b9e78672f96"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a952c976-cb86-49fd-b5d0-679f30ed1d9d">
+                    <propertyInstance
+                      Id="00699448-7b59-4849-b71f-ad6a9ea613ca"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ffb8ce6-6e96-42c3-b8a1-8c054068af58">
+                    <propertyInstance
+                      Id="623810b0-b79c-4e00-8054-4f92d5d81f2d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec4341c6-abb5-4a0d-8a60-f32347f9d4f9">
+                    <propertyInstance
+                      Id="6d2f4dfd-44bf-472c-b54e-e3958cc01ad8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="00543c49-1534-49f1-8876-6c0ce7855cc6"
+        LastKnownName="Extenders"
+        LastKnownLocation="Package18_1905.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

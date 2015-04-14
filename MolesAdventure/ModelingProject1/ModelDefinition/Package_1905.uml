@@ -1,0 +1,2711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="feb87cd1-6d9a-4a3f-908e-cf6a5091784a"
+  name="MolesAdventure"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d6882cf0-c1b6-4c25-b238-6d8c8fec6995"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMolesAdventure"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="525b57c0-e428-4e1f-9258-a96d2623980f">
+      <profileInstance
+        Id="bc0e9b92-d39e-45c7-9366-9826747ef60e"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="8d0fd76d-28c6-46e4-9c65-1c9b7c0c3c43"
+        name="Adventure"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ebb2885f-7263-4d25-889e-62e3858d6b0e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1120a09c-1cca-4051-b37a-78761b877065"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bca3c894-c8df-421b-b36a-72401fca9d44">
+                <propertyInstance
+                  Id="b9a62bcc-03a2-4a51-9d8b-8d0550e2072e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4bb9fcce-dc12-43a7-8c4c-d423544b8b40">
+                <propertyInstance
+                  Id="a689e650-f704-4971-a328-bdb346d36e63"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91b76d2c-28c6-43ec-917a-2ad3c4aabbde">
+                <propertyInstance
+                  Id="b7b97083-2e55-4fee-a885-5f63aeb79b5f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a5d2181-1d25-42e6-8639-2f6c88792675">
+                <propertyInstance
+                  Id="e7b11c78-e08d-4a35-a9ee-e1416017c4cb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84c3d78e-8195-4405-b581-f90e3f4c2abe">
+                <propertyInstance
+                  Id="a71a935d-806a-4c10-867b-3d50d1d10fec"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="56a5a855-73e4-4394-beb3-dc98c98fb62d">
+            <interfaceMoniker
+              Id="e2d32256-28dc-43de-aae0-ddec1ebe1a38"
+              LastKnownName="IGame"
+              LastKnownLocation="Package6_1905.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="68ee4494-3f91-42c8-bb0d-06be9ccb41d2"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8ff5d139-6018-4d5c-85b1-1e5fd47523f8"
+              LastKnownName="Game"
+              LastKnownLocation="Package3_1905.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4d35bb8f-0250-40f5-a931-278548f93fd0"
+            name="Views"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e360b640-a40c-4a3b-8e1c-fa696573fccf"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DViews"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a8f673e-17bf-47f4-b3e8-c382d0c82887"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07628d7a-0e58-4af2-aa33-07330929ec9d">
+                    <propertyInstance
+                      Id="b1e6e776-b8f7-4f6f-a7ef-63ac20f684bf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d496372-03b2-4a44-a992-41b98955c916">
+                    <propertyInstance
+                      Id="a1373b7c-b14f-4778-b749-206faaec5c71"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffc11327-7512-41c9-bae6-3bebf3459b54">
+                    <propertyInstance
+                      Id="282a1cba-8d89-4bd6-9188-8d5cad62c910"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52566729-4f22-4cf2-aadc-03d4d9b62bd4">
+                    <propertyInstance
+                      Id="e78ec30f-79e5-48ce-808b-545468e566d5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="caa5cd98-e730-43e8-96f8-83e202815cae">
+                    <propertyInstance
+                      Id="adae6493-8307-4cac-bda3-6e053e4e88a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3099f914-ae6e-486c-92dd-eaebce9df08a"
+                LastKnownName="List&lt;IView‎&gt;"
+                LastKnownLocation="Package9_1905.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fe25bf90-3300-4799-bc81-7334948ee389"
+            name="CurrentViewIndex"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="14c7b127-6ad0-4732-a075-cbfc1d5918a9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DCurrentViewIndex"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0d915dee-4322-4e81-ac4a-b13740f9f228"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fe70db9-5de6-41c5-acf8-0bd7a47ae1dd">
+                    <propertyInstance
+                      Id="7216d40b-a3c1-425e-8242-79571a755275"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8a374b0-2fb5-4c41-a25b-412344339616">
+                    <propertyInstance
+                      Id="bd82cc21-5023-4403-89ec-519e343b6bd7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="160b1640-5976-4c5c-90fc-5db4b2433914">
+                    <propertyInstance
+                      Id="41798af9-1efd-4027-b86f-c035adc214f3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7175b933-4e53-4b4a-8a20-35c476f83e3a">
+                    <propertyInstance
+                      Id="b69469c9-ed14-4661-ae62-a91145624f82"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44b868c0-8fd8-4dd3-b11c-d3bd6dd6bab1">
+                    <propertyInstance
+                      Id="b59273db-1d4b-430b-a443-2631d008407e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e2d6694e-3793-43cc-a74d-9269b518ea1f"
+            name="graphics"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="24315626-9526-4cae-af53-061e854f6bce"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3Dgraphics"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="282d21a3-dc19-418f-969b-2e84b523ab82"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="825b03cf-6186-43bd-918b-4e6c356cd503">
+                    <propertyInstance
+                      Id="c56209c7-d3e6-4131-aa75-49aac85f6f66"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d3b14df-e9a5-400f-a446-34451f93c9c1">
+                    <propertyInstance
+                      Id="a46da6d3-9cbb-429d-8200-c7a8a7994275"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3bc92e4-5a31-4cb1-bd98-f7dc87b37833">
+                    <propertyInstance
+                      Id="63c5105d-8bd3-40ff-a118-ad887004b8b3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89178f12-ccc4-4be0-86b4-73f1754cecde">
+                    <propertyInstance
+                      Id="fb3ae78a-9eaf-47d8-aaf8-e5c84817ff01"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e7c749b-62da-4fef-a3cf-411bf28b9869">
+                    <propertyInstance
+                      Id="f971f614-7b23-45aa-b466-1fce16b2ab19"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="df8405d0-18bc-4406-b929-211e5a55dce5"
+                LastKnownName="GraphicsDeviceManager"
+                LastKnownLocation="Package3_1905.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d28c257b-ce78-43ca-b8f5-cf22c85f162c"
+            name="spriteBatch"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3b43e860-ee56-4d1f-be8e-3bf4f40fa26d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DspriteBatch"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d4fa35df-c4e1-48de-a3ba-48176ff09a56"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a779a8d-80ed-4875-a2b9-4e0d14ccfc1e">
+                    <propertyInstance
+                      Id="2c9bceb4-7e9f-4947-a280-d9db55a13ae0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="652d34dc-fbb0-4bd0-bacb-5fcd837fd1fc">
+                    <propertyInstance
+                      Id="411c9574-960e-40a5-8d38-c23fa9b3900e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c50512b-040b-4128-863b-db312b66e85e">
+                    <propertyInstance
+                      Id="214d9f32-613f-4baa-8d87-a744307222a3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3737e03c-9069-4713-a450-7dd105758221">
+                    <propertyInstance
+                      Id="e1c83d65-f46f-48a9-9df1-3ed87be6c3de"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04709c9c-47be-4802-b999-d7536858cd76">
+                    <propertyInstance
+                      Id="815b5249-c955-4a5c-b6dc-06be0c78f3a1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a3e3b29a-132b-4d33-9733-7060f53aef35"
+                LastKnownName="SpriteBatch"
+                LastKnownLocation="Package10_1905.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e83de807-9fc7-4f68-8096-a5a2be37c105"
+            name="xnacontext"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2f4ef144-0b76-4ad8-8380-74046649c6d7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3Dxnacontext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a48d274-cb75-4b18-ba77-27f0dab77b0e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b389b5c-4b08-4b19-9135-978b9f5291cb">
+                    <propertyInstance
+                      Id="289d2ac3-efd7-45ca-b332-89c88a6ce6df"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f5e3233-37f2-42b8-b669-60f6052c8331">
+                    <propertyInstance
+                      Id="26e4f440-e698-4f93-948d-e808d8751ef7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20fe6c7f-3a92-4adc-a540-f2212d91fe49">
+                    <propertyInstance
+                      Id="9f37bd25-17c2-4cb2-a6b0-daf8f571c6f7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="388c15c7-cbad-4a3c-9671-e1d431dd2f25">
+                    <propertyInstance
+                      Id="71366859-05e5-4ec4-a2b5-da21f9572203"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="473cd283-f9cd-4237-bbe8-6d5379993ceb">
+                    <propertyInstance
+                      Id="b65001e8-1a28-430d-b464-5716d9f8ec57"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5b217b9e-4efc-48de-bfc1-6d599a69219a"
+                LastKnownName="XNAContext"
+                LastKnownLocation="Package_1905.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0f512dee-ee19-483c-a241-eef40f3769ea"
+            name="PlayerName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b77abb79-bb91-443d-a12e-539eca0ada42"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DPlayerName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="47978c39-0b1c-42e4-ba02-f29f35651502"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a21e152b-30cd-4651-a354-b8dcf8913e66">
+                    <propertyInstance
+                      Id="3aa07259-df32-4bed-884b-519b3e426ef3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2e5395f-4d88-406e-8436-524fcbf9da01">
+                    <propertyInstance
+                      Id="47d398cd-b80e-4980-8010-0d91b75daccc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="019b7bec-360b-426c-befd-c2d33bc9a882">
+                    <propertyInstance
+                      Id="97bd3572-8fff-4065-8618-6ad4c1092eda"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f819e5d-c208-43fc-a7c4-9c959701e98f">
+                    <propertyInstance
+                      Id="9947de24-8763-4f0e-8677-ff43f4aabf0c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1c3ea97-5b62-4d4e-9b80-ce8f20eabb27">
+                    <propertyInstance
+                      Id="d80b71c5-5f69-435d-bdb4-43261d278fdb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f1711bd3-4da1-41c2-b7b5-6870cdb650d9"
+            name="score"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ba19aad3-d7f3-4dee-a148-b93fb962df26"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3Dscore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7dafcd11-aa16-4ed7-985a-c198091af9e8"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e297977d-c23a-4451-b445-87e4eb3cceca">
+                    <propertyInstance
+                      Id="135b10bc-f037-4062-8fd5-5721ac3e6c49"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6f3fe8a-4fbd-437e-a3f3-f77fa8c18612">
+                    <propertyInstance
+                      Id="89c71adc-c319-4d4f-9fed-d4f673da73d3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="350e63c2-8fc7-4228-9498-c90a9d51240a">
+                    <propertyInstance
+                      Id="de2dede3-d236-4eba-a397-70fbd9b4dc46"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cba6fb6-892f-4e66-903d-dbf976ca5d19">
+                    <propertyInstance
+                      Id="0c8a2b63-15a3-4c8b-805f-ebdea931b29d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d72ef129-03c5-4ba3-aef2-a5bfea9d6709">
+                    <propertyInstance
+                      Id="93c82cac-c21a-4aa7-8523-2e80ee1c51a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6ea68e26-8c8a-4695-8e59-396230ce09f6"
+            name="highscores"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9c6e47e6-5f39-4abe-b53c-6a9075f8465f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3Dhighscores"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0fc92d7f-71d5-4502-a9f9-ac2d80fa485e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd273ab7-6518-4578-88bb-a3d70433e3ad">
+                    <propertyInstance
+                      Id="cd0d85a5-e991-492b-be1e-7032dd755a16"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfe1010b-9908-42f7-a0ff-b5aba74e6239">
+                    <propertyInstance
+                      Id="beaa4af6-8e6b-4ef4-b837-ae9b52c928d5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b358fc6a-6161-4689-8d19-c2c6c0a7b0e9">
+                    <propertyInstance
+                      Id="7fe7d680-3bd1-4864-b97f-db3292d51183"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20d3b0f9-b323-4e96-81af-00e3409d5647">
+                    <propertyInstance
+                      Id="bb4ea410-fa8d-4d77-a81b-4932e55e3096"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f61593e-efd7-4624-b1dd-1d6b040e6de3">
+                    <propertyInstance
+                      Id="48a4362d-022a-4175-a69a-9a7fc1947551"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a8c91dbc-e649-483d-a822-a99ece662632"
+                LastKnownName="HighScores"
+                LastKnownLocation="Package13_1905.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="44170d68-bf56-4707-b731-631ded725c4e"
+            name="Initialize"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="958d9d63-42fb-46a7-a327-a6bb75bb0f5e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DInitialize"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7cce2ca8-5cae-4bc5-9523-eccb0316f2dc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="834fff0a-1281-4802-9929-8319ba7f46bb">
+                    <propertyInstance
+                      Id="41269445-7eb2-4ff0-854e-76bb729e1cea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf7c65ac-4a4b-4ce9-8a23-781958cfb64a">
+                    <propertyInstance
+                      Id="f1c1965b-231e-4d1d-a7b0-9bb1e0418926"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dc3ac37-2f00-4d02-bf50-52558c720d1e">
+                    <propertyInstance
+                      Id="b6f34135-5af5-44e5-bf4e-fd3c4eb834b9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="205d4a68-6990-49e4-997c-cc9939220739">
+                    <propertyInstance
+                      Id="7c855749-bd9a-4247-9305-5b0227750ba9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="803fdd85-8b09-4c2a-a482-385aedbafa8c">
+                    <propertyInstance
+                      Id="905d7f0c-ff7a-4120-b52a-7a8850cccd5c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85d98495-7e45-4d98-a00c-990744c6326f">
+                    <propertyInstance
+                      Id="629e4c54-9a16-4eac-8cc1-ead80c20e039"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5a42ab7c-d7c4-408c-9a18-023bab4fd1df"
+            name="LoadContent"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0e9501f2-a830-44ec-a459-7566acbf37b0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DLoadContent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="58607fcb-6574-4a3e-aa8d-6b827262a477"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b551f998-b15c-4127-8c89-bf5069ac3d5f">
+                    <propertyInstance
+                      Id="a3fe0322-cc66-40b6-ad40-15c527e4cd86"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b598b3f-c931-4aa2-9a14-66c2852dda58">
+                    <propertyInstance
+                      Id="8db5b2c6-f279-40e9-80a7-95324aafd672"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75422d4b-2709-45ca-ad3b-21733ecb0980">
+                    <propertyInstance
+                      Id="940b543a-f3ab-4afb-84be-a3cc1e505943"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="023c5476-6b89-4b19-98a6-1a7bf7ffa0a5">
+                    <propertyInstance
+                      Id="fb7547a0-806d-48af-b53a-a547521657d1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b6abfce-2e36-4824-9eee-b58be477f12e">
+                    <propertyInstance
+                      Id="929e2322-77ab-44a7-96fa-7deb481850d1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fac7b2a4-38db-4890-87c2-09cae83b0d90">
+                    <propertyInstance
+                      Id="ddc962fb-b9d7-4bf6-8c69-cc2af23b1b4f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9a595719-4532-4e90-9883-fe27864d0466"
+            name="UnloadContent"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="64631ffd-8e30-4af5-ae4e-3c1f6d4012f2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DUnloadContent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9224f2fa-f588-4229-91b2-d97e739822e9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ee637ec-901f-4ff8-818c-917d76dc5fc5">
+                    <propertyInstance
+                      Id="80764cb9-b41a-4cba-b281-cdeb7906654d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e478d76c-282f-45d2-ab81-4b8110e540ae">
+                    <propertyInstance
+                      Id="b6797b28-9708-4e21-b5f0-5c46dc35d5ae"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0468770f-1217-4012-8e41-fd5b9f58e34a">
+                    <propertyInstance
+                      Id="e9c195c3-db0e-429b-aa6f-74eb6f29ad43"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a37e6ea5-7873-4435-937a-7e2ab9fec278">
+                    <propertyInstance
+                      Id="8f09b89f-5256-4f1d-b881-9130faa9b127"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a0da4a1-3fb8-4f0e-8cd4-4980601d7425">
+                    <propertyInstance
+                      Id="8abdda0c-2560-40db-ac8b-838b32931cf6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0dadd72-9ee3-4e7f-bd0e-58b121d1d284">
+                    <propertyInstance
+                      Id="5e198ccf-bf1c-4a79-8839-9c2812940cf6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b3a6b54a-a222-4af5-9ba9-9d73e9bec6fb"
+            name="Update"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5ebfd582-259a-4cb3-9777-2655eb97d80a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGameTime)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="60d86e18-9068-4332-9e25-a5f180089866"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aac82e72-1827-46b2-a46a-fd32a2b8b42d">
+                    <propertyInstance
+                      Id="2dcaf7a4-02a3-4f45-976a-63d43dcf0664"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb808817-5d5e-4afa-a179-0e380cd21265">
+                    <propertyInstance
+                      Id="8e0f1e56-8ff4-435b-824f-84813712b551"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a4003b2-a5c7-46f7-bfbd-2edf6c5db92f">
+                    <propertyInstance
+                      Id="d1884b17-2439-4df0-8e9f-fa9a9fffaf4f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76c7a830-fcb0-4401-a6d9-615fb6438f6c">
+                    <propertyInstance
+                      Id="580533e6-9a0e-40e1-abec-aa0653e63b5d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76d989f1-5871-482a-abb8-7df3d06b4618">
+                    <propertyInstance
+                      Id="22150dfe-ae98-4379-a86c-280089755aa7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8f999e1-88a7-45ee-80c5-76ee8ca70d23">
+                    <propertyInstance
+                      Id="f53dfffd-f887-4ca7-82b0-63c4ff94c71b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="28fa2a3e-51ee-40d1-b3e1-c71a47a72312"
+                  name="gameTime"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="94be4988-4572-4c36-8ca3-7b7fb5114c5f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGameTime)]) ParameterIdentifier%3DgameTime"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="650d8e69-2654-47e5-9b1e-cb6d1270c0ba"
+                      LastKnownName="GameTime"
+                      LastKnownLocation="Package3_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cf97a615-2328-4975-adff-a2bc071c5367"
+            name="Draw"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="596701f4-4a63-430c-8e47-ae4bbbbab07e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGameTime)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="52068398-7f5f-4dd9-9946-25f3902ef87c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6673455-a3f2-4775-bbcb-3b277a99fe4d">
+                    <propertyInstance
+                      Id="d7de6ef6-f779-4a01-98eb-08380e7dd945"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f6305dd-c206-467a-8ac8-f1b0f50d4b0a">
+                    <propertyInstance
+                      Id="094ba6e5-d8be-4b70-a50f-fa122952ddb2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="278226a6-7473-4c3b-a32e-ef340876f4ce">
+                    <propertyInstance
+                      Id="6d9cec48-09d2-47b9-b805-faf4ff066ec4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f7c9717-606e-47d7-9435-277a4996e745">
+                    <propertyInstance
+                      Id="dfa11f6a-1a07-47ec-86a4-8b0c64d8073f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="449b7b43-eefd-4abc-b13b-712f42d424d2">
+                    <propertyInstance
+                      Id="0bdf67a8-cbea-4108-b761-949dda142dac"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a45bbb4-044e-459a-815a-41c940992b5a">
+                    <propertyInstance
+                      Id="6d935e11-5eb3-4436-9c13-c48ccc509904"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fee83b9a-6ee5-4577-99d4-cf579ccc5aa9"
+                  name="gameTime"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="219b1ccf-3a27-403b-baf9-d8868bf37eb7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGameTime)]) ParameterIdentifier%3DgameTime"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="650d8e69-2654-47e5-9b1e-cb6d1270c0ba"
+                      LastKnownName="GameTime"
+                      LastKnownLocation="Package3_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c07e974e-2405-4797-a7f0-2258342877ca"
+            name="GetKeyboardState"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="21989cfa-2723-4d8c-bc49-413bd07b3167"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DGetKeyboardState"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c16e8be5-3375-416c-91e8-f302579332af"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="359a5521-72cc-4dac-ae4f-8fa40a5722a8">
+                    <propertyInstance
+                      Id="e96c109b-7568-438c-9b49-9c687a075d34"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06a9369d-454e-4a61-9550-842e2dd1909d">
+                    <propertyInstance
+                      Id="599a29c7-77b2-43d2-87f2-375a12f573f0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4029aecc-e994-4d79-bb41-c41fc8300088">
+                    <propertyInstance
+                      Id="53f2a52c-ebd2-456f-a29f-3323ea81ff7e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32c8584e-4bb4-4bd2-9cf7-dc5df6ed7c05">
+                    <propertyInstance
+                      Id="dca95d1a-7af0-4c39-9d75-0e054e887e12"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="142b2155-74d4-4f25-bcf4-78b87bf8208e">
+                    <propertyInstance
+                      Id="41f45aa8-84db-4790-9bd4-9352068ddc29"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfe8ef76-0622-4bc1-a986-3034a9893a6d">
+                    <propertyInstance
+                      Id="ee13935e-80be-47fe-9641-9a1a5669324d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f6c4c622-6181-46fd-8378-1997b62abe90"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93a93393-7efd-4f6d-9f31-18b8ea7a9b7a"
+                      LastKnownName="KeyboardState"
+                      LastKnownLocation="Package4_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f7b91969-bcfd-45f4-8196-d08c49a8186b"
+            name="GetGraphicalContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="61471ad4-1003-4286-9a24-91d5beb72612"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DGetGraphicalContext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="226e261a-e28a-42f2-8a3a-ffd307a6a712"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ffab6c3-a0a7-401a-bc51-7087e7fcd694">
+                    <propertyInstance
+                      Id="a6bb3b33-f8db-41d7-93ce-f073d8c5e108"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95b6d587-0646-474c-8373-db49a27f993e">
+                    <propertyInstance
+                      Id="5fc5ad40-e25b-4adc-898a-7bb3eebba8d8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cfe4002-fa64-4d73-8383-6bb4f271207a">
+                    <propertyInstance
+                      Id="f340f6ae-f0ba-4ac3-b1bc-656b0c5ba894"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b49af22f-32df-4382-9fca-6e09f46dee4b">
+                    <propertyInstance
+                      Id="cabebb86-018e-42b4-9bbe-3aef093a2ec5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="575b17a0-c763-48bb-86d2-55089a2d68a3">
+                    <propertyInstance
+                      Id="0fa6c2d2-9be7-4e3a-bf51-c31c92ae7b60"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ec8aaca-26b7-40b7-9b81-3118531414aa">
+                    <propertyInstance
+                      Id="1add985d-6d1c-41f1-ac66-7107f4fa23d4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="29606b3c-ee3a-4ca0-846d-ae2eca04a027"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="100726cf-83be-4a75-a79b-d9c727dba199"
+                      LastKnownName="IContext"
+                      LastKnownLocation="Package6_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8ed6abe8-5c4f-4d24-b115-ff9dc4308816"
+            name="Game1"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d61a2f72-44e6-4b9e-8dfc-2ea6a93dae9e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a7c978d7-bf8a-494e-9602-e1758b721a7a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cfbf74f-7239-4bd2-b37e-e51b2195838b">
+                    <propertyInstance
+                      Id="32da4427-e42f-44d6-8e8b-f291f9b7d2e2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e28282ad-3237-45f9-9fd1-46c707c164ee">
+                    <propertyInstance
+                      Id="4751b0c2-8412-4905-ba9e-1e15a5c7f58d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d64788b-7dec-4532-b936-4b683ddd44dc">
+                    <propertyInstance
+                      Id="a41ede04-9a33-48cd-9322-0dfc2ec31e0a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07c2d452-08e9-4500-b118-e3d3e8d75873">
+                    <propertyInstance
+                      Id="0ba7147b-f1c1-47c8-825a-910056523484"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d915b9d-d8c7-4f5b-8e1d-c6b000079cc4">
+                    <propertyInstance
+                      Id="124a424e-abbb-4f93-900b-fdc919a841d2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="887e0270-3750-4ae1-afd3-b6d265ec5fb3">
+                    <propertyInstance
+                      Id="082e5c6c-5ddb-420b-83bd-f01a4deb4d9d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="37f240bd-e5a1-4a42-be15-9426ca784ce7"
+            name="GetPlayerName"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="83b50dd4-cc35-4449-98ca-3513d7be3435"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DGetPlayerName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="355e2292-a223-4a3c-a9a5-f14c485bc0b5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66b9ca69-0fd3-4e50-b37a-38fdee392499">
+                    <propertyInstance
+                      Id="e83415b3-46cd-4287-bd7c-b9ec59630aea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce43a850-b5cf-461f-951d-cfbd12523ced">
+                    <propertyInstance
+                      Id="82103bf5-a3a1-412f-ae1d-dd11202ee50b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a54c4d5-f717-4a4b-b3a3-bd8e73d4817d">
+                    <propertyInstance
+                      Id="7fa6527e-731d-4bc9-8342-491afc0f1f9f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82294095-909f-4727-8674-8999b944f523">
+                    <propertyInstance
+                      Id="b24fcda4-ef8c-4eb5-9c68-e5d2b17e0cb9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5109149d-7928-4ba7-ac42-ab6f0e036fca">
+                    <propertyInstance
+                      Id="516cd00b-670b-4b6b-8fd3-6ed700393113"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="806f715b-6f6d-4821-abcf-131067ca3341">
+                    <propertyInstance
+                      Id="91d1553d-7d97-40d2-9b66-e7583953a5a9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="675a0089-172d-4adc-8049-43c017b6f6d7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cdd60ce6-847f-4bab-9cbf-d87f3b29b766"
+            name="GetScore"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="871efff2-4515-4850-939d-3cad01acb8f6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DGetScore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="353195f7-e558-45e1-baaa-daa552604799"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="197eb0a1-1cda-4bfc-85d0-4eb55e5b7bdb">
+                    <propertyInstance
+                      Id="10162f21-9fe9-412a-ba54-87e91536b0fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bd5df99-b575-4041-ab0d-75cb925079d0">
+                    <propertyInstance
+                      Id="be106b53-e1f8-497b-b392-5751bcf14fb8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a0dad19-2909-4310-abac-058ac38299af">
+                    <propertyInstance
+                      Id="da24f978-bc08-4a50-a591-383e1b5eaccd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d466cc27-552b-4ec4-aa05-a686ac99e37a">
+                    <propertyInstance
+                      Id="5976e4f5-dbe0-4636-b881-854659e40d8d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c754b3b3-fe5f-4e75-a056-02fbb7c39be9">
+                    <propertyInstance
+                      Id="4f1f373c-21d6-4dd5-a751-b232a530eeba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2d4c55a-4c28-4898-90de-3832bd3fbe46">
+                    <propertyInstance
+                      Id="f2db6e25-39b5-45e4-b29d-6810be5652c3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e621eda8-4e98-475f-9a79-b5dd47d5fbeb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b217994c-b394-4c9a-84fb-5909b3c2ae92"
+            name="SetScore"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f6cc1c54-28c8-4b9f-8dbb-706d6ca19b89"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DSetScore OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a3baf851-f964-41a9-8990-cec38b5cb2a9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77192604-83fa-47c9-a421-ae1df4709d53">
+                    <propertyInstance
+                      Id="2eb38c93-75d3-4f37-83c3-77b484ae0af4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17219a24-bcfa-49d8-a900-e22d24c2e738">
+                    <propertyInstance
+                      Id="10298d12-777f-48aa-99b6-b6798b0110ef"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01d8b33b-2194-4b9d-975b-8f02c98221b9">
+                    <propertyInstance
+                      Id="a150c6f5-84d7-4326-b3f9-a1e09b3e3255"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2cff72b-5d96-4048-a80b-a85297c24f5e">
+                    <propertyInstance
+                      Id="3e4ad81d-29ea-432f-8fb2-35789bfd74ab"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39c80eb5-203e-4aec-9206-91f662eed65b">
+                    <propertyInstance
+                      Id="8c86f1c4-08d1-47fc-847f-e6c9d96fd40b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8b2e669-ddae-426e-a86d-2d9c8b03bd73">
+                    <propertyInstance
+                      Id="7489347f-247f-4ee5-a8f2-336a42a9c73c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="17f18417-abf2-402c-9b56-7f0f4d77d7a4"
+                  name="score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="af45f4b8-ac54-43c6-a522-9c43bfc2c900"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DSetScore OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dscore"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6bf0f610-6e6d-4027-a8f9-620b6b22e9e6"
+            name="AddScore"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f5f360d6-ebc0-4966-b33f-68476ea806fa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DAddScore OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ca055bfe-a391-4bbc-99df-3454739568b6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="473d6c1b-ba38-42b5-a8f1-560040a6a155">
+                    <propertyInstance
+                      Id="bbb9c21a-fa1b-413e-833a-300c08f5f665"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29633e6a-8b13-4ce8-abbb-da4dac91b2db">
+                    <propertyInstance
+                      Id="6fed98d8-dd9d-4908-925a-14f062c07bfe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="188e4149-6bed-4ea2-85c3-1121193524aa">
+                    <propertyInstance
+                      Id="f12335e6-0b03-4b7b-8606-368b9cd7e28a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c0cae22-be49-4073-a9a2-6577475c9a41">
+                    <propertyInstance
+                      Id="08e34bfd-cdca-45f1-a53b-beeed61fafcf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="553c73bf-0355-471a-a840-c953df9cf571">
+                    <propertyInstance
+                      Id="e03452ab-c8b6-4ab1-a420-3781f77754bf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a842844-f182-4d7c-bda4-b627879f5675">
+                    <propertyInstance
+                      Id="55edffe5-689f-4fce-9094-3a6d9c5c2767"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="97359d33-165f-4a63-8a64-2ba3e62011d2"
+                  name="score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="16e04c2e-9739-4cac-8ff3-ab00f485a384"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3D(Name%3DAddScore OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dscore"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5617814c-20de-4e93-9cc0-339ffba5a896"
+            name="SaveGame"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="55400318-ccf8-4baa-af35-1c703547355a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DSaveGame"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5ca698c-7ffb-4b17-aa03-911176254e9e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff8fbaf6-eacc-4321-9c02-91734e523cf5">
+                    <propertyInstance
+                      Id="d1348846-da09-42dc-a76b-3315d43273e9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9b28e61-fcb3-45ff-aaf0-e72c650fd14a">
+                    <propertyInstance
+                      Id="e63f874f-9b4b-4d5b-904f-8ed38117db97"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a89ba10e-a6e5-48d0-ae8d-4f0e43505407">
+                    <propertyInstance
+                      Id="3f0af78e-0f57-49d2-b5b8-0e1b813dea8f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2b1852e-a8c5-4f44-8d91-19059d1c9a2a">
+                    <propertyInstance
+                      Id="73e71686-697c-4c00-ab2a-4830441243fc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4100d6a8-5c21-4b67-bcad-9a6382c7f756">
+                    <propertyInstance
+                      Id="90c326b1-5a5a-47a2-a460-c6727d5f63e1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92327b2e-caa0-4215-8c23-512bab2456ff">
+                    <propertyInstance
+                      Id="58b5f19d-8aa8-4145-9814-65eafe343d52"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="00347984-a26f-4d16-8cd6-592007045d6a"
+            name="Quit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8dee9051-6162-45c5-8026-7eed6bf25f29"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DGame1 Member%3DQuit"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="48eb4131-846a-4214-a0fd-b33c860e3e08"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c9bb5ce-62af-48f2-aa0b-422309a5856c">
+                    <propertyInstance
+                      Id="40064ed9-7040-451e-8edb-3bb34e77da02"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df52527e-15ad-41e0-9487-15203bea96d5">
+                    <propertyInstance
+                      Id="6753f9a2-8d1c-4eea-9325-dc3977bbac26"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="385ebe0b-d97a-4eba-ab62-2ca2a89df74a">
+                    <propertyInstance
+                      Id="e3dc1e77-e3f8-483e-854c-78601cd39dbd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e0e1daa-fefd-4069-be80-8c82e7641e24">
+                    <propertyInstance
+                      Id="556eaadd-954f-4324-81f9-ebd24b218c61"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a40f5bb4-90ae-45f8-8342-e78c3f9d957d">
+                    <propertyInstance
+                      Id="8e931647-bb5b-478e-9319-9ed7d53e26e9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f479da1d-edb7-4aec-bf03-a08a1f61e551">
+                    <propertyInstance
+                      Id="4fa092a0-39cc-4cf9-b765-54f8da99fb4c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="438aad86-088a-4880-801c-57aa38bd042d"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d9a571c4-b61b-4654-8937-16f3f6d893c5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f34221d4-2569-4f82-b6fb-4247f902356e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e5c7509-1704-405f-b5e9-05649be932ad">
+                <propertyInstance
+                  Id="72763c61-ca06-454e-b92c-01702ffcfe8d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa2d63a8-4b69-42a6-b7e9-7d21216b6c70">
+                <propertyInstance
+                  Id="3dec3f9d-ddfc-4a37-9121-51cf4b64e61e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce1ff413-3856-43de-a83b-5a37fcb8732e">
+                <propertyInstance
+                  Id="e6e282f0-21ef-45e2-803c-3c00b4d31089"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="164380bf-9bb3-44e2-a212-d0e26a4a5790">
+                <propertyInstance
+                  Id="73af90ef-e0bc-4de5-a784-22d25efda744"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5ba79c5e-5093-469c-ae51-402659217482">
+                <propertyInstance
+                  Id="527c1fe3-3018-4baf-993c-7fd4bdf1e055"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="78f7cb81-8b9c-44ee-87c9-702b5b1edd56"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="18d32ee1-bd81-423a-be61-478721602036"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4269989-e062-42cd-9bb0-0ab9007a0c83"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4854bba4-a102-48b1-aaa7-61344eb5f20a">
+                    <propertyInstance
+                      Id="83149501-9359-42a9-80e5-5e6f37131094"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="098af806-2b05-4192-be51-b4c757dd0b03">
+                    <propertyInstance
+                      Id="3934bc79-29a9-4081-9aaf-59bcc5b80b19"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0eb4b211-376d-4b6a-b706-dc125d6917ec">
+                    <propertyInstance
+                      Id="a089f8df-732b-4a5b-99e8-afbf0d5daa00"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da229956-2a83-4aa2-b3a9-4617850620d3">
+                    <propertyInstance
+                      Id="d803e408-c7a1-4be5-a508-ed93f3acbac4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bc38387-ada8-4093-817a-a5e257154f0b">
+                    <propertyInstance
+                      Id="efef1a19-1807-4b83-9165-3d6e06948e1b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55929d24-97f9-46e9-9a48-4114e8cb3d63">
+                    <propertyInstance
+                      Id="5761a201-b887-4a2b-8276-cbf98f31d5e4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33a77d27-764d-4313-b7da-d0ca78d33236"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="53e78077-f4e5-4ac0-9186-422edc5bbdcb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="72307959-629a-4066-856f-1367f8cd04ce"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="20ce1533-8d0a-4100-bf56-ded04b1e25da"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="78504e28-0866-4cf4-a785-ee60e2a952f6"
+        LastKnownName="GameObjects"
+        LastKnownLocation="Package12_1905.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d982ab78-ea17-42e4-a9c2-09d1a9a02d28"
+        LastKnownName="Views"
+        LastKnownLocation="Package20_1905.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5b217b9e-4efc-48de-bfc1-6d599a69219a"
+        name="XNAContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a0f91803-220f-4083-8bed-f768095f7985"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="228265e6-8244-475b-8110-ee4b3646d377"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f3dd6dd-be8e-46fc-878e-efda43dd88f6">
+                <propertyInstance
+                  Id="afddd376-3aad-44c1-83a1-1769193659c7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="edc0b786-11e6-4eaa-8b4a-f72f41e7eeb7">
+                <propertyInstance
+                  Id="dacd6483-eaf3-434f-8ffd-d559fb940a15"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74d3748e-3490-41e2-b3f4-11f789d834a2">
+                <propertyInstance
+                  Id="210206fd-d89a-44e8-8b42-6a673a05fcf7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04b68b9e-8873-430b-8056-65159a7af00f">
+                <propertyInstance
+                  Id="4397cbec-682a-4748-8545-06273828a160"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fad90e2d-4c1d-476b-9851-4ceefed9c588">
+                <propertyInstance
+                  Id="2b5da1bf-fea1-448c-95aa-115d6294076a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a275e11e-e409-442f-9160-8b558d400145">
+            <interfaceMoniker
+              Id="100726cf-83be-4a75-a79b-d9c727dba199"
+              LastKnownName="IContext"
+              LastKnownLocation="Package6_1905.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="6caaf724-e338-4f53-9ac1-73cac8db81e3"
+            name="graphics"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fe9b5db1-6e24-491a-aaa4-fc7db28db6f1"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3Dgraphics"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c93dee2c-f868-47df-b093-db6f990bf06a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="293bdad8-6ae3-468f-a9b1-7bbd097d5d3c">
+                    <propertyInstance
+                      Id="e9c77e57-bc44-40ef-9944-e391ccc6077e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4f993c3-ee95-4c6f-9f94-4b5b1c122fbc">
+                    <propertyInstance
+                      Id="ce34672b-57ad-4804-8870-37c5b31f00f7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e675ccc-5d77-4c86-a38a-871bc0aa1b37">
+                    <propertyInstance
+                      Id="15ef80ff-c53a-4348-8555-0e3d2167e9f2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cca4adc4-105b-4e61-82e2-2cd332f2c982">
+                    <propertyInstance
+                      Id="d0a72bc0-5d8e-4268-b504-d77293172a99"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51f99977-d7f7-4f29-aa15-a306120a0186">
+                    <propertyInstance
+                      Id="dce8203b-2f61-46fe-9908-09c04eb08e5b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="df8405d0-18bc-4406-b929-211e5a55dce5"
+                LastKnownName="GraphicsDeviceManager"
+                LastKnownLocation="Package3_1905.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="84372a63-feaf-49a3-b60f-829e3621385d"
+            name="spriteBatch"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3b3fd665-22c6-441e-8814-ace5db71dcbf"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3DspriteBatch"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4d7e9a4-2964-4f4f-9a7d-37d278fd5f91"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4379fe7-2fdd-4931-b930-9bc1c605ebec">
+                    <propertyInstance
+                      Id="91f8bc01-93e3-4b05-9265-7cd958cc269f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60e30a95-7c9e-49ee-a779-9ff57f7670be">
+                    <propertyInstance
+                      Id="9bcbb138-5fe7-450e-be90-d7cb0e37400b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5b762d6-1969-4fcc-b9bf-a99a0e01a4ed">
+                    <propertyInstance
+                      Id="eff831dd-b7d1-49c6-90aa-cd2e960210a8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="672a2c85-d7ba-40e3-b297-d87629b63c99">
+                    <propertyInstance
+                      Id="17b73546-701b-4ba3-b78a-0d25dd0ecc9b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61578400-0954-478e-b438-601d5d389a51">
+                    <propertyInstance
+                      Id="db4702e4-3bde-4c6c-a63f-fa785feaffd2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a3e3b29a-132b-4d33-9733-7060f53aef35"
+                LastKnownName="SpriteBatch"
+                LastKnownLocation="Package10_1905.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d6df5933-45a5-4376-a1bb-038b99b121d0"
+            name="spriteFont"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a55acad9-cd94-4d6e-8563-0b344c6d3196"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3DspriteFont"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1c741424-aac9-4973-9a52-84d9a84b7f5d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23273709-c60b-43e8-b12c-59a2cbd763f7">
+                    <propertyInstance
+                      Id="0a08f019-8579-4e5b-8d25-ffd25775c390"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40c1764c-b27d-45aa-83af-49757d9f167d">
+                    <propertyInstance
+                      Id="de9bbea4-9604-4b7c-8cac-a52b42cabf48"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73f6bfd4-98ae-4c47-878f-aa4a33a31d28">
+                    <propertyInstance
+                      Id="3a21f9a3-9d75-41a7-919d-7b3f4d4b983b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8dd08d8-4803-49cc-89f7-0fd1e6dd6746">
+                    <propertyInstance
+                      Id="0d5130d2-0032-45cb-88a3-0f7f2752e8e8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bda8f85-0acc-45a1-bcb6-375463591ffe">
+                    <propertyInstance
+                      Id="00c40894-d94d-45f1-a7eb-e25a41a0291a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3b3f6c93-90cd-49da-a90b-f98ad861054e"
+                LastKnownName="SpriteFont"
+                LastKnownLocation="Package10_1905.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6c5ea556-f579-4a33-8333-6e45fbcfa244"
+            name="writeColor"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="68d97717-f89c-47e5-8021-fd0e0b14be3a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3DwriteColor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe555236-6a5d-4c56-88b8-42a9abc50484"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b53c90d-11e3-4ab9-bdd3-94d6e9542778">
+                    <propertyInstance
+                      Id="3325df2a-d3bb-4d95-bfce-66765b898e14"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80a62cac-a031-49bd-87ce-47705feaa0d0">
+                    <propertyInstance
+                      Id="4232d1bf-41ee-4aeb-af39-b06eeac5eac9"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31da36a4-603d-436e-8fc5-2a3e04b2723b">
+                    <propertyInstance
+                      Id="7f6111d9-1222-413c-b236-cb73a125f711"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a012290f-9b52-4829-ba1f-ebb27b72ef13">
+                    <propertyInstance
+                      Id="2179a5b6-9ced-4c1c-b22c-961b6fac05be"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3167945b-bca3-4231-bc53-b9aad1de5092">
+                    <propertyInstance
+                      Id="98a88d0b-a173-47ba-8037-c746fa6fa9a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4030b214-d1e8-45fb-821e-be2ac3f3764a"
+                LastKnownName="Color"
+                LastKnownLocation="Package3_1905.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ef011d3f-e73e-4110-98cc-097cfcc430f2"
+            name="XNAContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aebf8d4a-143b-4548-acfd-dddeb3230b13"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGraphicsDeviceManager)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteBatch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteFont)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DColor)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cc4de6f1-469d-4e10-810a-e1b873241ab5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d10e3cda-55a0-48bc-b599-6663855de08c">
+                    <propertyInstance
+                      Id="82afc96c-c897-4d31-8c10-29365f510891"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98dfc287-3e29-4383-aec4-eac2b6acfed4">
+                    <propertyInstance
+                      Id="8d832bcb-5a41-4457-a8a7-cabc9caa36e7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="233c0918-719c-454d-b31b-6576de5af810">
+                    <propertyInstance
+                      Id="013c0fc1-1ced-4c5d-8193-2bd5a0ac3d32"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f0a14a8-d565-4dcb-8390-ce8adbc8b71d">
+                    <propertyInstance
+                      Id="cd2366c1-732e-4d00-bd98-67b265ff7d9f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f74282bc-cc75-4628-ae36-cd8a54f90530">
+                    <propertyInstance
+                      Id="512fc02a-872d-4d61-bcae-068c45895548"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="146b59c5-4f13-4593-8d6c-0eabc9cf0e6b">
+                    <propertyInstance
+                      Id="fd72bced-1488-444f-9956-3709bf4837ef"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b5b7a70a-36b5-4d9a-97bf-efab38fb4407"
+                  name="graphics"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4e5e69c3-c99c-45fe-8d3c-c61b63449e96"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGraphicsDeviceManager)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteBatch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteFont)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DColor)]) ParameterIdentifier%3Dgraphics"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="df8405d0-18bc-4406-b929-211e5a55dce5"
+                      LastKnownName="GraphicsDeviceManager"
+                      LastKnownLocation="Package3_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="604f07ef-98ee-4a5e-9706-5e884e41bdbd"
+                  name="spriteBatch"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f20596f8-96be-4eb3-bc33-162cebecb287"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGraphicsDeviceManager)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteBatch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteFont)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DColor)]) ParameterIdentifier%3DspriteBatch"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a3e3b29a-132b-4d33-9733-7060f53aef35"
+                      LastKnownName="SpriteBatch"
+                      LastKnownLocation="Package10_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="823a5916-f309-483d-ac11-8d7cb0b1a4ed"
+                  name="writeFont"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ce13146d-c8e8-4924-b7bf-617bfb9d709f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGraphicsDeviceManager)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteBatch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteFont)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DColor)]) ParameterIdentifier%3DwriteFont"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3b3f6c93-90cd-49da-a90b-f98ad861054e"
+                      LastKnownName="SpriteFont"
+                      LastKnownLocation="Package10_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0e992877-868a-4116-a681-886cd13b77cb"
+                  name="writeColor"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="06b20a50-39ee-4714-860c-03217c9d7008"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Game.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGraphicsDeviceManager)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteBatch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.Graphics.dll&quot; Namespace%3DMicrosoft.Xna.Framework.Graphics Type%3DSpriteFont)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft XNA%2FXNA Game Studio%2Fv4.0%2FReferences%2FWindows%2Fx86%2FMicrosoft.Xna.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DColor)]) ParameterIdentifier%3DwriteColor"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4030b214-d1e8-45fb-821e-be2ac3f3764a"
+                      LastKnownName="Color"
+                      LastKnownLocation="Package3_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cb7904d0-cb0d-473d-b030-f6e289cf15e8"
+            name="Draw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="28038827-8885-4979-8929-3866fa38646f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIDrawable)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="42afb748-cf8c-4d18-aaab-37a0e085548e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd026d33-dbff-4383-b9a6-f5aa80be60b1">
+                    <propertyInstance
+                      Id="4011345f-181e-4afe-a352-03f41038f5c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7029cdb9-7562-4942-8062-a066cc547191">
+                    <propertyInstance
+                      Id="bdc845a6-af43-4f8e-a458-ab5b79f3938f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="217b7666-263a-42a1-a0b2-1a81987b9c30">
+                    <propertyInstance
+                      Id="04882115-613a-477f-b5e9-9b58cc9103df"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ab19d5a-1163-4757-a42d-1ea5a7c86133">
+                    <propertyInstance
+                      Id="e32f6fd9-b2ce-44f5-8cf2-c230b130d096"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4b04fbf-c23f-4b88-b316-6e9c974fa9db">
+                    <propertyInstance
+                      Id="1aaa65fb-e106-486c-aa58-e960b21dab10"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eda0610b-adb5-49f7-872a-520a1dd91db1">
+                    <propertyInstance
+                      Id="1626ad9b-3235-4267-acfc-0338b416e3d4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="18d66526-574e-46f3-92df-0557ff7016f1"
+                  name="D"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ae9c7286-4012-4526-b592-63cf684067eb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIDrawable)]) ParameterIdentifier%3DD"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="20a92636-9fc2-4305-a650-73663ff7852c"
+                      LastKnownName="IDrawable"
+                      LastKnownLocation="Package6_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7ea495e2-a187-4435-8af2-b81a1f8ca983"
+            name="Prepare"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3c7cd1a9-9be1-4233-a34b-95f6c7f433c6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3DPrepare"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="91e5bec3-b84b-4058-96f0-c8e44fd68511"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7570ad0d-3edc-4643-ac69-1338440ac483">
+                    <propertyInstance
+                      Id="8ee1f776-c02c-4e42-853a-0cdecc3b24b6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ddd896f0-4fb7-413a-81b3-81dcf31a5ab3">
+                    <propertyInstance
+                      Id="2e9e090c-d5dd-475b-90cc-0f94146016bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5fdec4c-1e00-46ec-83c8-31a86f02f367">
+                    <propertyInstance
+                      Id="787946cb-e3d2-4abc-bbbe-6dafa484c4c8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac4246ce-a621-420b-9f08-a4101f5c94b5">
+                    <propertyInstance
+                      Id="11c82590-644f-491d-8dbd-5c8e59bea7c3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="560ca36b-4773-406e-9c3b-d7d222212e82">
+                    <propertyInstance
+                      Id="be716d6e-c6fe-4676-a53b-ec4f62de4458"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca772cfe-0de7-4db2-8a54-0ee32e6f9349">
+                    <propertyInstance
+                      Id="64f1d276-3b52-41d4-82b0-8517b42e49e7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3ff97a40-0e2d-4ff3-93d2-cf0325caff1b"
+            name="Draw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4625e4af-8da3-4a0f-a464-ad28687b6fbf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIWritable)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d590bd2c-3c22-4b9f-8d43-ec28c77b7e54"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5b7b20b-1846-4b81-a605-107afff550a4">
+                    <propertyInstance
+                      Id="f60ca0d4-ca35-4701-9e35-dbe35b1238b9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19553bc8-a462-4cfe-ad6b-9e1f976b852c">
+                    <propertyInstance
+                      Id="cdadb565-c1b3-4559-b81c-2fe0634d060c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1abcfb35-1c3e-477a-85ff-02ca1c2b7b1d">
+                    <propertyInstance
+                      Id="21b8ee4f-3c1d-4b2a-bda3-594f333a79f5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="247c6510-d5e1-4d0d-8d4f-9483ceda86c9">
+                    <propertyInstance
+                      Id="fdc95931-a09b-4380-a979-734136780130"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="becf94c7-b686-4509-94b4-d771af74f1cb">
+                    <propertyInstance
+                      Id="368fc454-dc8d-41fa-8422-42275835c1bf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b2a8371-edb9-4a6b-b1b5-e1cdf07da943">
+                    <propertyInstance
+                      Id="e06096ee-a779-4f6a-b924-b502fe647c34"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5074ba98-ba0d-44f0-a2da-484c8e638f8d"
+                  name="W"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="535b0bbe-5204-4e4b-9944-0d0ab6a48d8b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIWritable)]) ParameterIdentifier%3DW"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="06108953-b6c7-4f9c-bb02-08b507567fd6"
+                      LastKnownName="IWritable"
+                      LastKnownLocation="Package6_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5452d4ee-5ddb-4de3-ae53-087d6fcb84c1"
+            name="DrawFielded"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="98327d1d-9f85-48c9-9358-42bf23002d1f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDrawFielded OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIDrawable)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ac768404-8a4c-453c-84a5-c7f83dcbdb65"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42e4f45b-2a59-4663-9242-97b41651c3fe">
+                    <propertyInstance
+                      Id="86b12390-22d8-4b3f-8279-c608503093d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc899205-cb3f-4adb-8410-8537e5cfa0c9">
+                    <propertyInstance
+                      Id="2ef2adad-ac99-4038-a8eb-db67ec2ae2dd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef286aae-2a33-4d0f-85c8-e837c715b8f2">
+                    <propertyInstance
+                      Id="bb2a967e-4534-4f70-99bd-85890ff87677"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b084b2ea-6d33-485c-8153-c6787d9520f0">
+                    <propertyInstance
+                      Id="39ff4a84-1a99-4bdf-80be-24cc48d657fc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00c08ee1-3142-47dd-a3c1-a5178d7194d9">
+                    <propertyInstance
+                      Id="170bfd6c-e641-4237-9830-696c71536e25"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bdaeeb9-1c9b-457a-a652-390e74dacbc8">
+                    <propertyInstance
+                      Id="900c8b72-b8d7-46e4-87a8-24c315d5073f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a83a36a-9b4f-4cba-a3e0-ea1dbd559e7d"
+                  name="D"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ba25cff9-e398-4894-a6fd-697074ec597e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDrawFielded OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIDrawable)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)]) ParameterIdentifier%3DD"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="20a92636-9fc2-4305-a650-73663ff7852c"
+                      LastKnownName="IDrawable"
+                      LastKnownLocation="Package6_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81e3e041-8e7e-4ae4-b820-3672c576b306"
+                  name="FieldSize"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e1e22e1e-07b5-4e8b-9876-335f99527ddf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDrawFielded OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIDrawable)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)]) ParameterIdentifier%3DFieldSize"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56e99209-bb5d-4fbf-9721-b4c217de742a"
+                  name="FieldStart"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0a7bba03-e1a0-4640-b701-9fa5da8681d9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library Type%3DXNAContext Member%3D(Name%3DDrawFielded OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Interfaces Type%3DIDrawable)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)]) ParameterIdentifier%3DFieldStart"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

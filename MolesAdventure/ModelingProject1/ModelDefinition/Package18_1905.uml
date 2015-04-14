@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="00543c49-1534-49f1-8876-6c0ce7855cc6"
+  name="Extenders"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5e773f31-00f9-4a18-ad27-c0b1e4312883"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DXNA_Generic_Game_Library.Extenders"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="df0a4c3c-916d-42c1-a46d-f954d7138d8c"
+        name="PointExtender"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2077e83b-f0a6-42f3-b59c-b2b6d7910871"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library.Extenders Type%3DPointExtender"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="58d7241f-d1a4-436c-af93-0facefee9407"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38ecb214-3ccd-42f0-a284-0f007e974dfd">
+                <propertyInstance
+                  Id="6b16387b-81c7-4e64-9518-15ef7881b1c8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25479ac0-3268-466c-9008-769229c053bc">
+                <propertyInstance
+                  Id="3fb160f7-ec6f-4550-8af5-a798d77b0795"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1089bac3-75a9-43e4-a639-53025e2ea5e7">
+                <propertyInstance
+                  Id="dff65808-002a-436c-9880-8c9159db81cd"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4cec6f92-2bee-4319-b32e-55e725ec9703">
+                <propertyInstance
+                  Id="2e574a55-e885-4fb1-a9b6-74e33a5995fa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d674d66c-2b53-4ac0-9e50-52dc11c41ff8">
+                <propertyInstance
+                  Id="1051ca8b-ef57-4333-84cb-0ed8cb5b281f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="90670423-e40e-4ac4-bc4a-b8e64be83c79"
+            name="ToVector2"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="02f4c9b8-4aa8-4266-9e70-ae0c4ac51fa1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library.Extenders Type%3DPointExtender Member%3D(Name%3DToVector2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e761b968-c1e1-44be-90e0-2abfb7147056"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3ccb40a-be98-4892-a10f-b22d2394fb8e">
+                    <propertyInstance
+                      Id="1939dc18-3e0d-4a66-b87c-71228a6f17ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd7a1c09-e5fc-4eee-9875-8ccea87f035f">
+                    <propertyInstance
+                      Id="c6845f57-644e-49a2-b7a3-a1c8a9889279"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="262afb17-4da3-4ce7-bf95-25c15d029a97">
+                    <propertyInstance
+                      Id="3981b152-58a0-44a4-a81d-ca9e66f88d25"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="520d32d4-c6bc-4cd9-8252-488b05b718bc">
+                    <propertyInstance
+                      Id="e5348426-6527-44a2-bcf8-5b63868b89a7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45ec349d-a3e9-4fc5-99a2-a0d37cb6dc71">
+                    <propertyInstance
+                      Id="623fa30f-b0ac-45c7-bddf-7221631d10cb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="483ed167-57de-425d-a501-602ee8219923">
+                    <propertyInstance
+                      Id="315ea09e-5bfd-41e4-ab92-382ffa2c4edf"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da0646b5-f06f-4a57-908c-fb6017c365f4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0c55e6a2-f23c-4ab4-ac5d-7d04cf626ce3"
+                      LastKnownName="Vector2"
+                      LastKnownLocation="Package3_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa987aec-7286-480b-bf2e-8580fbc842e3"
+                  name="P"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f55c2c4e-577f-46e8-a768-e3aee4f01a02"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FXNA Generic Game Library%2Fbin%2Fx86%2FDebug%2FXNA Generic Game Library.dll&quot; Namespace%3DXNA_Generic_Game_Library.Extenders Type%3DPointExtender Member%3D(Name%3DToVector2 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FGeneric XNA Layer%2Fbin%2FDebug%2FGeneric Game Engine.dll&quot; Namespace%3DGeneric_Game_Engine.Objects Type%3DPoint)]) ParameterIdentifier%3DP"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

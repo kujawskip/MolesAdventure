@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="78504e28-0866-4cf4-a785-ee60e2a952f6"
+  name="GameObjects"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3ce8195f-a476-405b-8b6b-27f02346cc79"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMolesAdventure.GameObjects"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fb5029d1-3b44-440f-9bcc-42b1d5154917"
+        LastKnownName="Actors"
+        LastKnownLocation="Package14_1905.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b74ce4d2-6d68-4021-9ce9-6f0f16ba1e06"
+        LastKnownName="Bonuses"
+        LastKnownLocation="Package15_1905.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a5b7164e-d86d-40a9-90e5-23ddb74e5a16"
+        LastKnownName="Enemies"
+        LastKnownLocation="Package16_1905.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a1b380f8-181f-4533-9003-7238f9dbfd11"
+        LastKnownName="Field"
+        LastKnownLocation="Package_2214.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

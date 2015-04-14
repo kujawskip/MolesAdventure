@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a5b7164e-d86d-40a9-90e5-23ddb74e5a16"
+  name="Enemies"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="634a2d28-016a-436b-8485-d4ae8ba30ee2"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMolesAdventure.GameObjects.Enemies"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d3b30aca-e60e-4937-8874-89cdf1e08097"
+        name="Enemy"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="51bed6e6-b5ed-42d2-8daf-12dd37b8db98"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DEnemy"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2a1c73ee-e6af-43c3-a08b-b44d11a7205d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4c46376-336d-41a5-8ed4-733b26a27f6b">
+                <propertyInstance
+                  Id="2259c798-316b-4e1c-9ff1-1e67be38387e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2af1afb-bb49-46f8-a555-3e22ba66136f">
+                <propertyInstance
+                  Id="f0ee592b-91f4-4e99-80cb-50af044f89e3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="34599f93-3163-4f84-85da-d31285de6873">
+                <propertyInstance
+                  Id="2e651626-e025-4d9c-bd60-0835ccbad3dd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ed23ab9-78b6-4aab-948b-9d8094e6131f">
+                <propertyInstance
+                  Id="d9e62283-9fba-4ccb-b44b-9e1d9aa4ff02"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7b6946d-72d8-4720-b598-9d4566768d49">
+                <propertyInstance
+                  Id="1c55fe99-1dee-4e65-8ead-3de15f78c29c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="76da7e86-7160-49f6-8a6f-310ad08f85ae"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fd6217eb-d438-4bd3-8740-71759fa330a9"
+              LastKnownName="MovingObject"
+              LastKnownLocation="Package11_1905.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cf192b34-9556-47f6-bf0a-7a8d4517cb93"
+            name="Damage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="31f3b882-b732-4cd1-ab56-e339e6e43ae8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DEnemy Member%3D(Name%3DDamage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="930882bf-5130-4154-a763-40331b55dd9f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc628c06-903f-470c-a86a-ee24973163be">
+                    <propertyInstance
+                      Id="c3c0caf3-166f-498f-b41e-bdcc271bdb4a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="324cf525-a7c1-41a9-a612-dacddfda50f3">
+                    <propertyInstance
+                      Id="0dbd0370-133f-4756-8296-0e6c0936756b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8260745-6243-48a5-84ed-e01600d6da3c">
+                    <propertyInstance
+                      Id="0c826fea-1fab-4183-8f4a-2ba84b227a4a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="254073b4-56bc-4036-9b18-7ac56acbbec9">
+                    <propertyInstance
+                      Id="2dc65242-59e9-4d3c-a9cc-ec6098d78feb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9441f42-82f4-4656-8097-d9ba457114f9">
+                    <propertyInstance
+                      Id="d650413c-1c74-4594-bd31-2668992db0ff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5de97b5c-5cc8-4666-8fad-5e8e33c62e61">
+                    <propertyInstance
+                      Id="15ac108f-5614-4ea0-b859-9d59b643729a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2b198e0f-b847-42e0-bdc2-bec7878009b2"
+                  name="D"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d42579f4-21d9-412b-acbf-43570fa27c85"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DEnemy Member%3D(Name%3DDamage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DD"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a160f982-8864-46da-ba01-7e635b84458c"
+            name="GetCollisionEffect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f9fcbc0d-9ba5-4e9c-bc73-00c48eb9de86"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DEnemy Member%3DGetCollisionEffect"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ad8604c0-1edf-49a7-bc82-c574144b6c4a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b6f5b1d-d30d-4036-9a04-160659257298">
+                    <propertyInstance
+                      Id="e767a916-87e2-4388-a3fc-95a866ade172"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="515a9869-04ce-48dc-8f8e-76fd9f9a7c1a">
+                    <propertyInstance
+                      Id="b5b69989-a9f1-46a9-9c4d-db0ee3645042"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10822f93-51b0-48b0-8d17-25df68c4be8a">
+                    <propertyInstance
+                      Id="a678a73f-667e-4894-9687-ef66dbf3c51c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae60a7fe-942f-4d0f-97f1-e372cacbf814">
+                    <propertyInstance
+                      Id="8ed6572e-e987-40dd-8633-810fe2bce471"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4df0c81a-6bcd-4471-a9be-67a9f2956565">
+                    <propertyInstance
+                      Id="0b036d9c-481e-4921-897d-01c6b5cc4ab4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecafa8f3-03f1-4a55-910d-fdff3257fba6">
+                    <propertyInstance
+                      Id="8244bedc-1763-4430-a314-4458242fec08"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f7e4a513-c66c-450a-8103-8e8159476eea"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6f8784ea-e4e1-40ef-90e1-11b8598a314d"
+                      LastKnownName="CollisionEffect"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a7c200d6-5ae6-4471-9e78-1c4b06c6aa4d"
+            name="Enemy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="29b8270b-e1cd-46f0-9e95-8e55bbb88704"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DEnemy Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d06d4c81-b726-429f-a1a7-393a66493fb4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ee9cd89-f4aa-4a25-8a60-5e8cfadac07d">
+                    <propertyInstance
+                      Id="2c5aa3ea-830d-4694-8c9b-10648df239c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dc6d9c9-bdc5-4260-a5a8-b8ea9141637a">
+                    <propertyInstance
+                      Id="eb71568e-fd24-4461-9d02-ec9a2f984bc8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae79c113-70e3-474a-97ce-779f05774e69">
+                    <propertyInstance
+                      Id="26e28175-9239-4d9a-9582-e73a895976e9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c18e88bf-2e0c-4caf-9b4a-b1ab50b1af74">
+                    <propertyInstance
+                      Id="049c2a75-3915-4134-96fd-8e566f854172"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3dcdd05e-10eb-4f8a-ac43-7b4e54810ae4">
+                    <propertyInstance
+                      Id="f6bbe5fa-742b-479e-a3bb-a543e9722ab3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22972c7a-068f-4f15-8dc3-c3eeb5f0e09b">
+                    <propertyInstance
+                      Id="db8359d4-b83a-4623-940a-3921768fdd9d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="19237cf1-9bf2-45cf-b8a4-2fbdb554f248"
+        name="SmartWorm"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="59b1ae09-2d28-4f56-9d31-f80d57bb09c0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DSmartWorm"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cd6bb793-8ea1-4b0c-a6c6-0bd438d693d4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4766f2ac-1216-4f25-bb30-bcf3ca6b1fbc">
+                <propertyInstance
+                  Id="d2616cb0-6796-44b2-bb96-1fbf7f8f959c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2d0f840-44e3-45a3-acb7-1f62f8a80f65">
+                <propertyInstance
+                  Id="647aa9a8-8fbb-4d53-af56-922acbc6c838"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61d5ff05-795c-4989-bbf4-392f6b481ef7">
+                <propertyInstance
+                  Id="fa119534-4a37-43ce-af1d-7a53f02638a6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2f81bf1-76ba-4365-a3eb-c2ff003cb4e3">
+                <propertyInstance
+                  Id="f99b40bc-bb6e-4454-9ce8-5e96a5bd17ad"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3a644d73-45f6-403b-95e9-107db1f3ddd4">
+                <propertyInstance
+                  Id="81a444d8-685d-42c8-b4c6-26fd0c3879b8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="68104fe5-aab0-40cd-98fe-82b19dab92b8"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d3b30aca-e60e-4937-8874-89cdf1e08097"
+              LastKnownName="Enemy"
+              LastKnownLocation="Package16_1905.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ae63c9bc-fd30-4c51-bad8-69861f152e69"
+            name="GetCollisionEffect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0534fafe-157c-4ecc-a600-6874d913d479"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DSmartWorm Member%3DGetCollisionEffect"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0350325-fa25-44d9-ae32-c5e33f6c0be8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="113747a1-f6ff-44a9-88de-e2828dc61105">
+                    <propertyInstance
+                      Id="843391ac-4e84-4f20-a6b6-4ed9a0b5dc8a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1f7f61e-6c42-47b2-bc2c-b79f78ea061a">
+                    <propertyInstance
+                      Id="7128002e-4cbc-4a09-85b4-9be7c8988c38"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5b47ee3-21ba-457f-8324-3822e05245bc">
+                    <propertyInstance
+                      Id="0d9c95e7-474a-4c83-a5a1-24783537f573"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4653cf4f-d813-4662-8caf-6b83a7b99659">
+                    <propertyInstance
+                      Id="37144f25-add0-4d05-b945-b3f439ea3d47"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f805c48-e657-46f1-8519-9424dc9b8edd">
+                    <propertyInstance
+                      Id="96eb081d-b73e-4504-ac4f-e58fc1092ce3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f05a125-65cf-466d-8a2e-59eeda4a15c5">
+                    <propertyInstance
+                      Id="7fc42b23-fad9-4bc4-bf8b-80b41c8579f9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ec8a8140-351f-425e-b120-51b7939714ab"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6f8784ea-e4e1-40ef-90e1-11b8598a314d"
+                      LastKnownName="CollisionEffect"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="10b61933-1f73-40b2-90ff-0025c0aabd1f"
+            name="GetMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4fd40bd2-010b-4f18-8bfb-7d5be07d5966"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DSmartWorm Member%3DGetMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dfc94f2a-90ce-408f-b123-d4fc95c459c2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7af509aa-7efe-44d8-975d-4300c98af29e">
+                    <propertyInstance
+                      Id="64fa521e-e44c-47f5-b13c-e23c45fc1665"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5035755d-a86e-4504-b30d-0185fe4a125a">
+                    <propertyInstance
+                      Id="9577dbe3-6ed6-4692-b2b3-afd87d0086ae"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43e7d052-d0aa-4d47-8d49-3eaa8b765b7a">
+                    <propertyInstance
+                      Id="5b3147e7-5c27-4e59-8d51-55d2e872af85"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd3c8dcf-2d5f-40ff-acba-fd29c2c64eec">
+                    <propertyInstance
+                      Id="cedee6ab-0b2f-4cb0-932d-c0e01330ae30"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b33eb515-a5a4-4731-887e-d6a69f0bbe69">
+                    <propertyInstance
+                      Id="a772f5f9-c279-4013-9f8e-5a31bb341418"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da95272c-5715-4bfe-a548-dd5a8dfd1322">
+                    <propertyInstance
+                      Id="d3928dd4-8c4e-4a45-b135-88a51e030466"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b468e4f3-5a47-4790-8891-5fee520033ac"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9dcd9318-e5ea-49b5-8139-1e40f2c639a7"
+            name="SmartWorm"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="054caef8-d1e9-4848-bd55-4ae5e2b46832"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DSmartWorm Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1ec92755-2f62-4312-b5d6-2b23a678e044"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9d2098d-f0d8-4563-8eaa-69af9344ea95">
+                    <propertyInstance
+                      Id="7792111e-c258-4a53-a9e9-5d38a40a7a18"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b418280c-edf0-473f-9b63-2980a01fc728">
+                    <propertyInstance
+                      Id="4d97a7eb-6361-43ce-98c3-0f6ee4cc624c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9728bba-5b21-40ee-9964-21b40d3b7a59">
+                    <propertyInstance
+                      Id="998bce1d-6527-4b69-af2d-8452afb51676"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d925f95-3544-42a0-8971-b74c78906c17">
+                    <propertyInstance
+                      Id="15ac235d-3cc1-4951-8261-2b23e7e70584"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8e74fc7-2ddf-449b-a64f-9abdeee33fa0">
+                    <propertyInstance
+                      Id="24a1c86a-067a-42a0-a641-1500fd619fe9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b07537f-0f72-4b98-9818-09f8db093429">
+                    <propertyInstance
+                      Id="7c1c6e24-e7f8-4dcb-af63-cc8495a34296"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="034ca467-152f-4550-a994-7dc41d54d046"
+        name="StupidWorm"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b5f9f062-d559-4052-8fce-86df3730e51c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DStupidWorm"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a1db810b-627b-4cf3-88fd-c75098d9f5dd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f9b0228-5741-4a02-be74-fbfe5a68f892">
+                <propertyInstance
+                  Id="8ccdc93e-be60-4e77-a76f-d04a35ec575e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7b92ece-3d38-4dbb-a85a-db3e89259b4d">
+                <propertyInstance
+                  Id="e5110e1b-32e5-46ff-aac6-59b3fff21d07"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b1d80527-47d7-4675-af83-1b2a7cb63ed2">
+                <propertyInstance
+                  Id="147bc1f4-6bac-4602-a16f-fa9eb96b91dd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c0b9ccc-62ba-4c76-a36c-b3280d9d0d67">
+                <propertyInstance
+                  Id="02ef56c5-483e-4ae7-a8ed-baa29ecafb00"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db000bc0-e3a3-41c3-a0f6-fbcfb1c29b1c">
+                <propertyInstance
+                  Id="ca122d2d-c5e3-4999-b170-e3e980266b61"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="2a8acc5e-2bc3-4ca9-b142-f4085f368e20"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d3b30aca-e60e-4937-8874-89cdf1e08097"
+              LastKnownName="Enemy"
+              LastKnownLocation="Package16_1905.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="32b7c8c2-70f8-4efe-a9dc-bbf51eb117ce"
+            name="GetMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5b514f5a-1d4e-4db6-a4bb-b2021cd1d520"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DStupidWorm Member%3DGetMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4d0b8fa8-6909-49f9-9475-37de1ddd623d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e4f12ac-baba-408a-b6a7-65402363f289">
+                    <propertyInstance
+                      Id="21121969-c783-4af1-98ce-bc1f78c4c344"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c987499c-69ac-435d-a49c-fe6782423344">
+                    <propertyInstance
+                      Id="a0cf567c-aee2-44dc-8cb9-84dea9588680"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39fe46d2-fe46-4058-9e63-f8bf05beb348">
+                    <propertyInstance
+                      Id="430316cb-d544-4a8e-b0d8-355f88a30799"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2a84c8d-d794-4e7a-b4a8-87b962b8e6c2">
+                    <propertyInstance
+                      Id="12bba7b6-8866-4486-a695-dc2c1401345e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="164a3bf9-8d04-4174-9663-4652f54da06f">
+                    <propertyInstance
+                      Id="d3958aec-422f-414d-bfcb-5fd698481d02"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f65321ea-3d08-494a-bdf5-84b2076930f7">
+                    <propertyInstance
+                      Id="0096b80f-a3f8-43ca-a0cc-276520f3b7b0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="209762fe-f8bb-4629-8652-dff73ba12e9e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9e3566c-f0ac-40de-9248-80a21da79234"
+                      LastKnownName="Point"
+                      LastKnownLocation="Package13_1905.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8a949e8e-fe96-40d4-b6cb-0f517a493a26"
+            name="StupidWorm"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1a3decff-84ba-4bf2-8d0b-896621f0d9de"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FPatryk%2Fdocuments%2Fvisual studio 2012%2FProjects%2FRobaczek%2FRobaczek%2FRobaczek%2Fbin%2Fx86%2FDebug%2FMolesAdventure.exe&quot; Namespace%3DMolesAdventure.GameObjects.Enemies Type%3DStupidWorm Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36b70079-4e17-464f-926b-5d51d4f17b95"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dab92580-e73b-47ea-b8dd-6cce40ad8894">
+                    <propertyInstance
+                      Id="de9f2da5-2a8f-44a5-b48b-323e29b02c37"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f5b17bc-ffcb-456d-b266-8913620d4efd">
+                    <propertyInstance
+                      Id="c579062e-d4cc-41ba-94b0-4a9fc74c5a31"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bea51292-e90a-429c-aea2-5c0f31874fba">
+                    <propertyInstance
+                      Id="af1c06db-586e-451c-850e-975834244a28"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb18bf12-4ee1-4f07-870a-c5b4245e5382">
+                    <propertyInstance
+                      Id="2beb1331-351c-400a-9861-6d04a9d6c9be"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a2a6ace-31cf-4f2a-9342-eeebd687bfd7">
+                    <propertyInstance
+                      Id="9fed0dcd-6fef-415f-a05b-a3474e6c6752"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98519b0f-b844-441e-bff8-eca74b9afffd">
+                    <propertyInstance
+                      Id="f1e540a3-9e3d-4408-b3a3-b246e885f94e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

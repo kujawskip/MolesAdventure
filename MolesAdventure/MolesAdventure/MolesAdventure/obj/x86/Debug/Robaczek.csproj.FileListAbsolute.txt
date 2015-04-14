@@ -1,0 +1,10 @@
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\obj\x86\Debug\Robaczek.csprojResolveAssemblyReference.cache
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\bin\x86\Debug\Robaczek.exe
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\bin\x86\Debug\Robaczek.pdb
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\bin\x86\Debug\Generic Game Engine.dll
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\bin\x86\Debug\XNA Generic Game Library.dll
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\bin\x86\Debug\Generic Game Engine.pdb
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\bin\x86\Debug\XNA Generic Game Library.pdb
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\obj\x86\Debug\Robaczek.exe
+C:\Users\Patryk\documents\visual studio 2012\Projects\Robaczek\Robaczek\Robaczek\obj\x86\Debug\Robaczek.pdb

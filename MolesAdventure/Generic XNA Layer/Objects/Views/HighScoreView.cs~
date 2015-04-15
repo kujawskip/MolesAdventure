@@ -14,7 +14,6 @@ namespace Generic_Game_Engine.Objects.Views
     {
 	    this.range = range;
     }
-
         List<IWritable> Prefix;
         List<IWritable> Suffix;
         List<IWritable> StringList;

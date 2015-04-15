@@ -11,10 +11,8 @@ namespace Generic_Game_Engine.Objects.Views
         IWritable writer;
         public StringInputView(IDrawable Background,IGame logicalContext) : base(Background,logicalContext)
         {
-		this.AddObject(writer);
            
           //  this.GraphicalContext = graphicalContext;
-	  //
         }
     }
 }

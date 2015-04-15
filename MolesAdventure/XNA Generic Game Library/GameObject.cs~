@@ -10,9 +10,9 @@ namespace XNA_Generic_Game_Library
     {
 	CollisionEffect collisionEffect {get;set;}
 	Texture2D texture;
-	Generic_Game_Engine.Objects.Point location;
+	Point location;
 	IView view;
-	public GameObject(CollisionEffect CE,Texture2D sprite,Generic_Game_Engine.Objects.Point location,IView view)
+	public GameObject(CollisionEffect CE,Texture2D sprite,Point location,IView view)
 	{
 		texture=sprite;
 		collisionEffect = CE;
@@ -21,36 +21,36 @@ namespace XNA_Generic_Game_Library
 	}
         public Microsoft.Xna.Framework.Graphics.Texture2D GetTexture()
         {
-            return texture;
+            throw new NotImplementedException();
         }
 
         public Generic_Game_Engine.Objects.Point GetLocation()
         {
-            return location;
+            throw new NotImplementedException();
         }
 
         public void SetLocation(Generic_Game_Engine.Objects.Point P)
         {
-            location = P;
+            throw new NotImplementedException();
         }
         public IView GetView()
         {
-            return view;
+            throw new NotImplementedException();
         }
         public void SetView(IView V)
         {
-           	view = V;
+            throw new NotImplementedException();
         }
 
         
         public virtual void Damage(int D)
         {
-            
+            throw new NotImplementedException();
         }
 
         public virtual Generic_Game_Engine.Objects.CollisionEffect GetCollisionEffect()
         {
-            return collisionEffect;
+            throw new NotImplementedException();
         }
 
         public virtual void ReactToCollision(Generic_Game_Engine.Objects.CollisionEffect CE)

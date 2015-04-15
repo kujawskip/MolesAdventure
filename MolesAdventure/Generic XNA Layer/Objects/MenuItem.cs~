@@ -54,12 +54,12 @@ namespace Generic_Game_Engine.Objects
 
         public void Append(string s)
         {
-            text+=s;
+            throw new NotImplementedException();
         }
 
         public void SetString(string s)
         {
-		text = s;            
-	}
+            throw new NotImplementedException();
+        }
     }
 }

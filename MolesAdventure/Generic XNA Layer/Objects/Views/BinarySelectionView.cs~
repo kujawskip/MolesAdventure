@@ -20,12 +20,11 @@ namespace Generic_Game_Engine.Objects.Views
         bool isSelectorUsed;
         void UseSelector(int index)
         {
-            isSelectorUsed = true;
-	 	currentSelector = index;   
+            throw new NotImplementedException();   
         }
         void StopSelector()
         {
-            isSelectorUsed= false;
+            throw new NotImplementedException();
         }
     }
 }

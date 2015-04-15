@@ -16,55 +16,39 @@ namespace Generic_Game_Engine.Objects.Objects
         MenuView view;
         public Point GetLocation()
         {
-          return Location;
+            throw new NotImplementedException();
         }
 
         public void SetLocation(Point P)
         {
-            Location=P;
+            throw new NotImplementedException();
         }
 
         public void SetView(IView V)
         {
-            view = (MenuView)V;
+            throw new NotImplementedException();
         }
 
         public IView GetView()
         {
-            return view;
+            throw new NotImplementedException();
         }
-	int lastMove;
+
         public void Move(Point P)
         {
-		if(P.Y!=0) lastMove = P.Y;
-            if(P.Y > 0)
-	    {
-		index = view.GetNextIndex(index);
-	    }
-	    else if(P.Y < 0)
-	    {
-		index = view.GetPreviousIndex(index);
-	    }
+            throw new NotImplementedException();
         }
 
         public Point GetMove(Microsoft.Xna.Framework.Input.KeyboardState K)
         {
-            if(K.IsKeyDown(view.GetLogicalContext().GetDownKey()))
-	    {
-		    return new Point(0,-1);
-	    }
-	    else if(K.IsKeyDown(view.GetLogicalContext().GetUpKey())
-	    {
-	    		return new Point(0,1);
-	    }
-
+            throw new NotImplementedException();
    
         }
 
 
         public void ReverseMove()
         {
-            Move(new Point(0,lastMove));
+            throw new NotImplementedException();
         }
     }
 }

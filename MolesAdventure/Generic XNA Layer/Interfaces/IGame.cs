@@ -16,6 +16,12 @@ namespace Generic_Game_Engine.Interfaces
         void AddScore(int score);
         void SaveGame();
         void Quit();
-         
+
+
+        Objects.Point GetViewSize();
+
+        Keys GetUpKey();
+
+        Keys GetDownKey();
     }
 }

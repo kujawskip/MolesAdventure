@@ -9,7 +9,12 @@ namespace MolesAdventure.GameObjects.Bonuses
 {
     public class Bonus : GameObject
     {
+        public Bonus() : base(null,null,new Generic_Game_Engine.Objects.Point(),null)
+        {
 
+        }
+        
+        
         public override void Damage(int D)
         {
             return;

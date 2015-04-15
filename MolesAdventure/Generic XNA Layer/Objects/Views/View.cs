@@ -15,8 +15,8 @@ namespace Generic_Game_Engine.Objects.Views
         protected List<IWritable> WriteObjects;
         protected IDrawable Background;
         protected IGame LogicalContext;
-        
-        public View(IDrawable Background,IGame logicalContext)
+
+        public View(IDrawable Background, IGame logicalContext)
         {
             Objects = new List<IPlaceable>();
             MovingObjects = new List<IAutoMovable>();
@@ -25,7 +25,7 @@ namespace Generic_Game_Engine.Objects.Views
             WriteObjects = new List<IWritable>();
             this.Background = Background;
             this.LogicalContext = logicalContext;
-          //  this.GraphicalContext = graphicalContext;
+            //  this.GraphicalContext = graphicalContext;
         }
         public virtual void Update()
         {
@@ -39,7 +39,7 @@ namespace Generic_Game_Engine.Objects.Views
             }
         }
 
-     
+
         public virtual void Draw()
         {
             var GraphicalContext = LogicalContext.GetGraphicalContext();
@@ -53,6 +53,7 @@ namespace Generic_Game_Engine.Objects.Views
             {
                 GraphicalContext.Draw(writable);
             }
+            GraphicalContext.End();
         }
 
 
@@ -63,41 +64,41 @@ namespace Generic_Game_Engine.Objects.Views
 
         public void AddObject(IAutoMovable m)
         {
-           MovingObjects.Add(m);
-	   AddObject((IPlaceable)m);
+            MovingObjects.Add(m);
+            AddObject((IPlaceable)m);
         }
 
         public void AddObject(IControlable c)
         {
             Controlable.Add(c);
-	    AddObject((IPlaceable)c);
+            AddObject((IPlaceable)c);
         }
 
         public void AddObject(IWritable w)
         {
             WriteObjects.Add(w);
-	    AddObject((IPlaceable)w);
+            AddObject((IPlaceable)w);
         }
 
         public void AddObject(IDrawable d)
         {
             DrawObjects.Add(d);
-	    AddObject((IPlaceable)d);
+            AddObject((IPlaceable)d);
         }
 
         public void RemoveObject(IPlaceable p)
         {
             Objects.Remove(p);
-	    DrawObjects.Remove(p);
-	    WriteObjects.Remove(p);
-	    Controlable.Remove(p);
-	    MovingObjects.Remove(p);
+            DrawObjects.Remove(p as IDrawable);
+            WriteObjects.Remove(p as IWritable);
+            Controlable.Remove(p as IControlable);
+            MovingObjects.Remove(p as IAutoMovable);
         }
 
         public Point GetBorder()
         {
-		return LogicalContext.GetViewSize();           
-	}
+            return LogicalContext.GetViewSize();
+        }
 
 
 

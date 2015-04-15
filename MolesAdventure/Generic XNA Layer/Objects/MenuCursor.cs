@@ -53,11 +53,11 @@ namespace Generic_Game_Engine.Objects.Objects
 	    {
 		    return new Point(0,-1);
 	    }
-	    else if(K.IsKeyDown(view.GetLogicalContext().GetUpKey())
+	    else if(K.IsKeyDown(view.GetLogicalContext().GetUpKey()))
 	    {
 	    		return new Point(0,1);
 	    }
-
+            return new Point(0, 0);
    
         }
 

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Generic_Game_Engine.Interfaces;
+using Generic_Game_Engine.Objects;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +11,14 @@ namespace MolesAdventure.GameObjects.Actors
 {
     public class Mole : ControlableObject
     {
+         private Mole(CollisionEffect CE, Texture2D sprite, Generic_Game_Engine.Objects.Point location, IView view) : base(CE,sprite,location,view)
+        {
+        }
+        static private Mole instance;
+        static public Mole GetInstance()
+        {
+            return instance;
+        }
         public override Generic_Game_Engine.Objects.CollisionEffect GetCollisionEffect()
         {
             return base.GetCollisionEffect();

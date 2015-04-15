@@ -27,14 +27,34 @@ namespace MolesAdventure
         XNAContext xnacontext;
         string PlayerName;
         int score;
-        
+        static private IGame instance;
+        static public IGame GetInstance()
+        {
+            return instance;
+        }
+        public void StartGame()
+        {
+        }
+        public void LoadGame()
+        {
+        }
+        public void ChangeOptions()
+        {
+        }
+        public void ViewHelp()
+        {
+        }
+
         public Adventure()
         {
             Views = new List<IView>();
-            Views.Add(new StringListView(new GameObject(), this,null,null,null));
+           
             CurrentViewIndex = 0;
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferHeight = 768;
+            graphics.PreferredBackBufferWidth = 1024;
             Content.RootDirectory = "Content";
+            instance = this;
         }
 
         /// <summary>
@@ -60,7 +80,8 @@ namespace MolesAdventure
             spriteBatch = new SpriteBatch(GraphicsDevice);
             
             xnacontext = new XNAContext(graphics, spriteBatch,null,Color.Gold);
-          
+            var text = Content.Load<Texture2D>("titlescreen1");
+            Views.Add(new StringListView(new GameObject(null, text, new Generic_Game_Engine.Objects.Point(), null), this, null, null, null, 3));
             
             // TODO: use this.Content to load your game content here
         }
@@ -112,7 +133,7 @@ namespace MolesAdventure
 
         public IContext GetGraphicalContext()
         {
-            throw new NotImplementedException();
+            return xnacontext;
         }
 
 
@@ -123,17 +144,17 @@ namespace MolesAdventure
 
         public int GetScore()
         {
-            throw new NotImplementedException();
+            return score;
         }
 
         public void SetScore(int score)
         {
-            throw new NotImplementedException();
+            this.score = score;
         }
 
         public void AddScore(int score)
         {
-            throw new NotImplementedException();
+            this.score += score;
         }
 
 
@@ -144,6 +165,22 @@ namespace MolesAdventure
 
         HighScores highscores;
         public void Quit()
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public Generic_Game_Engine.Objects.Point GetViewSize()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Keys GetUpKey()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Keys GetDownKey()
         {
             throw new NotImplementedException();
         }

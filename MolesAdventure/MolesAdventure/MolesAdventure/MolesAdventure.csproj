@@ -72,6 +72,9 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\GameObjectFactory.cs" />
+    <Compile Include="Factories\MenuFactory.cs" />
+    <Compile Include="Factories\ViewFactory.cs" />
     <Compile Include="GameObjects\Actors\Mole.cs" />
     <Compile Include="GameObjects\Bonuses\Banana.cs" />
     <Compile Include="GameObjects\Bonuses\BigWormCan.cs" />
@@ -110,7 +113,7 @@
       <Project>{c43c1244-4176-4bd9-88fa-17bb4b4d0b5e}</Project>
       <Name>XNA Generic Game Library</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RobaczekContent\RobaczekContent.contentproj">
+    <ProjectReference Include="..\MolesAdventureContent\MolesAdventureContent.contentproj">
       <Name>RobaczekContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
       <Project>{3777CFE6-8FDB-4293-A040-CCE501AB86AE}</Project>

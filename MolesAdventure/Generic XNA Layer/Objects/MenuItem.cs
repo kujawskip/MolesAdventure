@@ -15,6 +15,7 @@ namespace Generic_Game_Engine.Objects
        
 
         MenuItemDelegate executor;
+        private int size;
         #region IWritable
         public Point GetLocation()
         {
@@ -38,6 +39,23 @@ namespace Generic_Game_Engine.Objects
         {
             return text;	 
         }
+        public void SetSize(int s)
+        {
+            this.size = s;
+        }
+        public void Append(string s)
+        {
+            text += s;
+        }
+
+        public void SetString(string s)
+        {
+            text = s;
+        }
+        public int GetSize()
+        {
+            return size;
+        }
         #endregion
         public void Execute()
         {
@@ -49,17 +67,13 @@ namespace Generic_Game_Engine.Objects
             this.location = location;
             this.view = view;
             this.executor = executor;
+            this.size = 10;
         }
 
 
-        public void Append(string s)
-        {
-            text+=s;
-        }
+        
 
-        public void SetString(string s)
-        {
-		text = s;            
-	}
+
+      
     }
 }

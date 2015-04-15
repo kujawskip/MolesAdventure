@@ -10,5 +10,7 @@ namespace Generic_Game_Engine.Interfaces
         string ToString();
         void Append(string s);
         void SetString(string s);
+        void SetSize(int s);
+        int GetSize();
     }
 }

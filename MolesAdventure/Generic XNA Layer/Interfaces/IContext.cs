@@ -20,5 +20,7 @@ namespace Generic_Game_Engine.Interfaces
         void Prepare();
         void Draw(IWritable W);
         void DrawFielded(IDrawable W, Point FieldSize,Point FieldStart);
+
+        void End();
     }
 }

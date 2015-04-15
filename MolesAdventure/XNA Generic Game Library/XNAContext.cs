@@ -12,8 +12,12 @@ namespace XNA_Generic_Game_Library
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        private SpriteFont spriteFont;
+        private SpriteFont[] spriteFonts;
         private Color writeColor;
+        private SpriteFont GetFontBySize(int size)
+        {
+            return spriteFonts[(size - 10) / 2];
+        }
         public void Draw(Generic_Game_Engine.Interfaces.IDrawable D)
         {
             if (!(D is GameObject)) throw new ArgumentException("Object must be of type GameObject");
@@ -24,21 +28,25 @@ namespace XNA_Generic_Game_Library
         public void Prepare()
         {
             graphics.GraphicsDevice.Clear(Color.White);
+            spriteBatch.Begin();
         }
-
-        public XNAContext(GraphicsDeviceManager graphics, SpriteBatch spriteBatch,SpriteFont writeFont,Color writeColor)
+        public void End()
+        {
+            spriteBatch.End();
+        }
+        public XNAContext(GraphicsDeviceManager graphics, SpriteBatch spriteBatch,SpriteFont[] writeFonts,Color writeColor)
         {
             // TODO: Complete member initialization
             this.graphics = graphics;
             this.spriteBatch = spriteBatch;
-            this.spriteFont = writeFont;
+            this.spriteFonts = writeFonts;
             this.writeColor = writeColor;
         }
 
 
         public void Draw(IWritable W)
         {
-            spriteBatch.DrawString(spriteFont, W.ToString(), W.GetLocation().ToVector2(), writeColor);
+            spriteBatch.DrawString(GetFontBySize(W.GetSize()), W.ToString(), W.GetLocation().ToVector2(), writeColor);
         }
 
 

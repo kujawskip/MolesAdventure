@@ -1,1 +1,6 @@
 Content\titlescreen1.xnb
+Content\10.xnb
+Content\12.xnb
+Content\14.xnb
+Content\16.xnb
+Content\logo.xnb

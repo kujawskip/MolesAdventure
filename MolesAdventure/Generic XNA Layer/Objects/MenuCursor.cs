@@ -7,23 +7,34 @@ using System.Text;
 
 namespace Generic_Game_Engine.Objects.Objects
 {
-    public class MenuCursor : IDrawable,IControlable
+    public class MenuCursor : IWritable,IControlable
     {
         string text;
+        int size;
         Point Location;
         int index;
-
+        public MenuCursor(MenuView m)
+        {
+            index = 0;
+            view = m;
+            text = ">";
+            size = 16;
+        }
         MenuView view;
         public Point GetLocation()
         {
-          return Location;
+            var P = view.GetCursorLocationByIndex(index);
+            return P;
         }
 
         public void SetLocation(Point P)
         {
-            Location=P;
+           
         }
-
+        public override string ToString()
+        {
+            return text;
+        }
         public void SetView(IView V)
         {
             view = (MenuView)V;
@@ -65,6 +76,32 @@ namespace Generic_Game_Engine.Objects.Objects
         public void ReverseMove()
         {
             Move(new Point(0,lastMove));
+        }
+
+
+        public void Append(string s)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetString(string s)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetSize(int s)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GetSize()
+        {
+            return size;
+        }
+
+        internal int GetIndex()
+        {
+            return index;
         }
     }
 }

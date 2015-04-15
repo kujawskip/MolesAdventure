@@ -14,3 +14,11 @@ C:\Users\Patryk\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\D
 C:\Users\Patryk\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\Debug\XNA Generic Game Library.pdb
 C:\Users\Patryk\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\Debug\Generic Game Engine.dll
 C:\Users\Patryk\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\Debug\Generic Game Engine.pdb
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\Debug\XNA Generic Game Library.dll
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\Debug\XNA Generic Game Library.pdb
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\Debug\Generic Game Engine.dll
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\bin\x86\Debug\Generic Game Engine.pdb
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\obj\x86\Debug\XNA Generic Game Library.csprojResolveAssemblyReference.cache
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\obj\x86\Debug\XNA Generic Game Library.dll
+H:\MolesAdventure\MolesAdventure\XNA Generic Game Library\obj\x86\Debug\XNA Generic Game Library.pdb

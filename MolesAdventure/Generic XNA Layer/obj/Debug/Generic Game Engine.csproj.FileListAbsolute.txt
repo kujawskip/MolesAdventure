@@ -8,3 +8,8 @@ C:\Users\Patryk\MolesAdventure\MolesAdventure\Generic XNA Layer\obj\Debug\Generi
 C:\Users\Patryk\MolesAdventure\MolesAdventure\Generic XNA Layer\obj\Debug\Generic Game Engine.pdb
 C:\Users\Patryk\MolesAdventure\MolesAdventure\Generic XNA Layer\bin\Debug\Generic Game Engine.dll
 C:\Users\Patryk\MolesAdventure\MolesAdventure\Generic XNA Layer\bin\Debug\Generic Game Engine.pdb
+H:\MolesAdventure\MolesAdventure\Generic XNA Layer\bin\Debug\Generic Game Engine.dll
+H:\MolesAdventure\MolesAdventure\Generic XNA Layer\bin\Debug\Generic Game Engine.pdb
+H:\MolesAdventure\MolesAdventure\Generic XNA Layer\obj\Debug\Generic Game Engine.csprojResolveAssemblyReference.cache
+H:\MolesAdventure\MolesAdventure\Generic XNA Layer\obj\Debug\Generic Game Engine.dll
+H:\MolesAdventure\MolesAdventure\Generic XNA Layer\obj\Debug\Generic Game Engine.pdb

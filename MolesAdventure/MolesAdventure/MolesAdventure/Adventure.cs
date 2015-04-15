@@ -12,6 +12,7 @@ using XNA_Generic_Game_Library;
 using Generic_Game_Engine.Interfaces;
 using Generic_Game_Engine.Objects.Views;
 using Generic_Game_Engine.Objects;
+using MolesAdventure.Factories;
 
 namespace MolesAdventure
 {
@@ -27,8 +28,8 @@ namespace MolesAdventure
         XNAContext xnacontext;
         string PlayerName;
         int score;
-        static private IGame instance;
-        static public IGame GetInstance()
+        static private Adventure instance;
+        static public Adventure GetInstance()
         {
             return instance;
         }
@@ -44,7 +45,9 @@ namespace MolesAdventure
         public void ViewHelp()
         {
         }
-
+        public void ViewHighScores()
+        {
+        }
         public Adventure()
         {
             Views = new List<IView>();
@@ -79,11 +82,23 @@ namespace MolesAdventure
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             
-            xnacontext = new XNAContext(graphics, spriteBatch,null,Color.Gold);
+            xnacontext = new XNAContext(graphics, spriteBatch,LoadFonts(),Color.Gold);
             var text = Content.Load<Texture2D>("titlescreen1");
-            Views.Add(new StringListView(new GameObject(null, text, new Generic_Game_Engine.Objects.Point(), null), this, null, null, null, 3));
+            var logo = Content.Load<Texture2D>("logo");
+            ViewFactory.InitializeFactory(text,logo);
+            Views.Add(ViewFactory.createMainMenuView());
             
             // TODO: use this.Content to load your game content here
+        }
+
+        private SpriteFont[] LoadFonts()
+        {
+            List<SpriteFont> fonts = new List<SpriteFont>();
+            for (int i = 10; i < 18; i += 2)
+            {
+                fonts.Add(Content.Load<SpriteFont>(i.ToString()));
+            }
+            return fonts.ToArray();
         }
 
         /// <summary>
@@ -172,17 +187,23 @@ namespace MolesAdventure
 
         public Generic_Game_Engine.Objects.Point GetViewSize()
         {
-            throw new NotImplementedException();
+            return new Generic_Game_Engine.Objects.Point(1024, 768);
         }
 
         public Keys GetUpKey()
         {
-            throw new NotImplementedException();
+            return keyboardstate ? Keys.Up : Keys.W;
         }
-
+        bool keyboardstate;
         public Keys GetDownKey()
         {
-            throw new NotImplementedException();
+            return keyboardstate ? Keys.Down : Keys.S;
+        }
+
+
+        public Keys GetAcceptKey()
+        {
+            return Keys.Enter;
         }
     }
 }

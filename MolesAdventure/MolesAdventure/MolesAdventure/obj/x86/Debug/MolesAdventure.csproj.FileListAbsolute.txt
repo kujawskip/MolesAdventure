@@ -19,3 +19,19 @@ C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\
 C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\MolesAdventure.exe
 C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\MolesAdventure.pdb
 C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\titlescreen1.xnb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\titlescreen1.xnb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\MolesAdventure.exe
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\MolesAdventure.pdb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Generic Game Engine.dll
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\XNA Generic Game Library.dll
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Generic Game Engine.pdb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\XNA Generic Game Library.pdb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\MolesAdventure.csprojResolveAssemblyReference.cache
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\MolesAdventure.exe
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\MolesAdventure.pdb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\10.xnb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\12.xnb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\14.xnb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\16.xnb
+H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\logo.xnb

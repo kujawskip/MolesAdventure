@@ -23,5 +23,7 @@ namespace Generic_Game_Engine.Interfaces
         Keys GetUpKey();
 
         Keys GetDownKey();
+
+        Keys GetAcceptKey();
     }
 }

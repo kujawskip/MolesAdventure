@@ -7,8 +7,53 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\titlescreen1.xnb</Output>
-      <Time>2015-04-15T15:56:48.9345777+02:00</Time>
+      <Output>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\titlescreen1.xnb</Output>
+      <Time>2015-04-15T18:33:41.0273363+02:00</Time>
+    </Item>
+    <Item>
+      <Source>10.spritefont</Source>
+      <Name>10</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\10.xnb</Output>
+      <Time>2015-04-15T18:21:36.5093337+02:00</Time>
+    </Item>
+    <Item>
+      <Source>12.spritefont</Source>
+      <Name>12</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\12.xnb</Output>
+      <Time>2015-04-15T18:21:36.4904635+02:00</Time>
+    </Item>
+    <Item>
+      <Source>14.spritefont</Source>
+      <Name>14</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\14.xnb</Output>
+      <Time>2015-04-15T18:21:36.4515045+02:00</Time>
+    </Item>
+    <Item>
+      <Source>16.spritefont</Source>
+      <Name>16</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\16.xnb</Output>
+      <Time>2015-04-15T18:21:36.4719266+02:00</Time>
+    </Item>
+    <Item>
+      <Source>logo.png</Source>
+      <Name>logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\logo.xnb</Output>
+      <Time>2015-04-15T18:45:55.0114762+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,10 +62,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventureContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Patryk\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventureContent\</RootDirectory>
+      <LoggerRootDirectory>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\MolesAdventure\MolesAdventure\MolesAdventure\MolesAdventure\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -49,7 +94,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-02-23T01:53:17.1708498+01:00</Value>
+        <Value>2014-02-11T10:21:08.1457947+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
